@@ -18,6 +18,8 @@ class Licenciatura(models.Model):
     ects = models.IntegerField()
     descricao = models.TextField()
     imagem = models.ImageField(upload_to='licenciaturas/')
+    objetivos = models.TextField(blank=True, null=True)
+    url_curso = models.URLField(blank=True, null=True)
     empresas_parceiras = models.ManyToManyField(
         EmpresaParceira,
         related_name='licenciaturas'
@@ -42,6 +44,8 @@ class UnidadeCurricular(models.Model):
     ects = models.IntegerField()
     descricao = models.TextField()
     imagem = models.ImageField(upload_to='ucs/')
+    codigo = models.CharField(max_length=50, blank=True, null=True)
+    objetivos = models.TextField(blank=True, null=True)
     licenciatura = models.ForeignKey(
         Licenciatura, 
         on_delete=models.CASCADE,
