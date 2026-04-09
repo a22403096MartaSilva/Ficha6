@@ -22,7 +22,8 @@ class Licenciatura(models.Model):
     url_curso = models.URLField(blank=True, null=True)
     empresas_parceiras = models.ManyToManyField(
         EmpresaParceira,
-        related_name='licenciaturas'
+        related_name='licenciaturas',
+        blank=True
     )
 
     def __str__(self):
@@ -30,9 +31,9 @@ class Licenciatura(models.Model):
 
 class Docente(models.Model):
     nome = models.CharField(max_length=200)
-    email = models.EmailField()
-    pagina_pessoal = models.URLField()
-    foto = models.ImageField(upload_to='docentes/')
+    email = models.EmailField(blank=True, null=True)
+    pagina_pessoal = models.URLField(blank=True, null=True)
+    foto = models.ImageField(upload_to='docentes/', blank=True, null=True)
 
     def __str__(self):
         return self.nome
@@ -46,9 +47,8 @@ class UnidadeCurricular(models.Model):
     imagem = models.ImageField(upload_to='ucs/')
     codigo = models.CharField(max_length=50, blank=True, null=True)
     objetivos = models.TextField(blank=True, null=True)
-    licenciatura = models.ForeignKey(
+    licenciatura = models.ManyToManyField(
         Licenciatura, 
-        on_delete=models.CASCADE,
         related_name='ucs'
     )
     docentes = models.ManyToManyField(
