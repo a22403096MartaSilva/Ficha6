@@ -23,7 +23,7 @@ class Licenciatura(models.Model):
     empresas_parceiras = models.ManyToManyField(
         EmpresaParceira,
         related_name='licenciaturas',
-        blank=True
+        blank=True, null=True
     )
 
     def __str__(self):
@@ -83,7 +83,7 @@ class Projeto(models.Model):
     titulo = models.CharField(max_length=200)
     ano = models.IntegerField()
     descricao = models.TextField()
-    imagem = models.ImageField(upload_to='projetos/')
+    imagem = models.ImageField(upload_to='projetos/',blank=True, null=True)
     conceitos_aplicados = models.TextField()
     github_link = models.URLField()
     video_demo = models.URLField(blank=True, null=True)
