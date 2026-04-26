@@ -1,0 +1,23 @@
+{% extends 'portfolio/layout.html' %}
+
+{% block content %}
+
+<h2>
+    Projetos
+    <a href="{% url 'projeto' %}">
+        <button>Criar novo projeto</button>
+    </a>
+</h2>
+
+
+<ul>
+{% for projeto in projetos %}
+    <li>
+        <a href="{% url 'pagina_projeto' projeto.id %}">
+            {{ projeto.titulo }}
+        </a>
+    </li>
+{% endfor %}
+</ul>
+
+{% endblock %}

@@ -1,0 +1,21 @@
+{% extends 'portfolio/layout.html' %}
+
+{% block content %}
+<h2>
+    {{ tecnologia.nome }}
+     <a href="{% url 'edita_tecnologia' tecnologia.id %}" style="text-decoration: none;">
+        <button style="margin-right: 5px;">Editar tecnologia</button>
+    </a>
+
+    <a href="{% url 'apaga_tecnologia' tecnologia.id %}" style="text-decoration: none;">
+        <button>Apagar tecnologia</button>
+    </a>
+</h2>
+
+<p><strong>Tipo:</strong> {{ tecnologia.tipo }}</p>
+<p><strong>Descrição:</strong> {{ tecnologia.descricao }}</p>
+<p><strong>Link oficial:</strong> {{ tecnologia.link_oficial }}</p>
+<p><strong>Nível de preferência:</strong> {{ tecnologia.nivel_preferencia }}</p>
+
+
+{% endblock %}

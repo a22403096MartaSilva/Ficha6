@@ -1,0 +1,46 @@
+{% extends 'portfolio/layout.html' %}
+
+{% block content %}
+
+<h2>
+    {{ formacao.nome }}
+
+    <a href="{% url 'edita_formacao' formacao.id %}" style="text-decoration: none;">
+        <button style="margin-right: 5px;">Editar formação</button>
+    </a>
+
+    <a href="{% url 'apaga_formacao' formacao.id %}" style="text-decoration: none;">
+        <button>Apagar formação</button>
+    </a>
+</h2>
+
+<p><strong>Instituição:</strong> {{ formacao.instituicao }}</p>
+
+<p><strong>Tipo:</strong> {{ formacao.tipo }}</p>
+
+<p><strong>Data início:</strong> {{ formacao.data_inicio }}</p>
+
+{% if formacao.data_fim %}
+    <p><strong>Data fim:</strong> {{ formacao.data_fim }}</p>
+{% else %}
+    <p><strong>Data fim:</strong> Em curso</p>
+{% endif %}
+
+<p><strong>Descrição:</strong> {{ formacao.descricao }}</p>
+
+<h4>Competências:</h4>
+
+<ul>
+{% for competencia in formacao.competencias.all %}
+    <li>
+        <a href="{% url 'pagina_competencia' competencia.id %}">
+            {{ competencia.nome }}
+        </a>
+    </li>
+{% empty %}
+    <li>Sem competências associadas.</li>
+{% endfor %}
+</ul>
+
+
+{% endblock %}

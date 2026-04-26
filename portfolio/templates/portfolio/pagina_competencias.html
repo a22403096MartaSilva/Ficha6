@@ -1,0 +1,23 @@
+{% extends 'portfolio/layout.html' %}
+
+{% block content %}
+
+<h2>Competências</h2>
+
+<a href="{% url 'competencia' %}">
+    <button>Criar nova competência</button>
+</a>
+
+<ul>
+{% for competencia in competencias %}
+    <li>
+        <a href="{% url 'pagina_competencia' competencia.id %}">
+            {{ competencia.nome }}
+        </a>
+    </li>
+{% empty %}
+    <li>Sem competências.</li>
+{% endfor %}
+</ul>
+
+{% endblock %}

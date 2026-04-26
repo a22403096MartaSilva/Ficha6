@@ -1,0 +1,41 @@
+{% extends 'portfolio/layout.html' %}
+
+{% block content %}
+
+<h2>
+    {{ competencia.nome }}
+
+    <a href="{% url 'edita_competencia' competencia.id %}" style="text-decoration: none;">
+        <button>Editar competência</button>
+    </a>
+
+    <a href="{% url 'apaga_competencia' competencia.id %}" style="text-decoration: none;">
+        <button>Apagar competência</button>
+    </a>
+</h2>
+
+<p><strong>Nome:</strong> {{ competencia.nome }}</p>
+
+<p><strong>Tipo:</strong> {{ competencia.tipo }}</p>
+
+<p><strong>Nível:</strong> {{ competencia.nivel }}</p>
+
+<p><strong>Descrição:</strong> {{ competencia.descricao }}</p>
+
+<hr>
+
+<h3>Projetos associados</h3>
+
+<ul>
+{% for projeto in competencia.projetos.all %}
+    <li>
+        <a href="{% url 'pagina_projeto' projeto.id %}">
+            {{ projeto.titulo }}
+        </a>
+    </li>
+{% empty %}
+    <li>Sem projetos associados.</li>
+{% endfor %}
+</ul>
+
+{% endblock %}

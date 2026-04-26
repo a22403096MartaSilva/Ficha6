@@ -1,0 +1,62 @@
+<html>
+<head>
+    <title>Portfolio</title>
+    <style>
+        body {
+            background: white;
+        }
+
+        .errorlist {
+            display: none;
+        }
+
+        header nav {
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            gap: 5px;
+        }
+
+        footer {
+            position: fixed;
+            bottom: 10px;
+        }
+
+        table th {
+            text-align: right;
+        }
+
+        .helptext {
+            font-size: 0.7em;
+            color: gray;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>O meu Portfolio</h1>
+
+        <nav>
+            <a href="{% url 'index' %}">
+                <button>Projetos</button>
+            </a>
+
+            <a href="{% url 'pagina_formacoes' %}">
+                <button>Formações</button>
+            </a>
+        </nav>
+    </header>
+
+    <hr>
+
+    <main>
+        {% block content %}
+        {% endblock %}
+    </main>
+
+    <footer>
+    
+    </footer>
+</body>
+</html>

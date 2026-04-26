@@ -21,11 +21,15 @@ from django.urls import path, include              #     <- adicionar include
 from django.conf import settings
 from django.conf.urls.static import static
 
+
 urlpatterns = [
     path("admin/", admin.site.urls),
+    path('', include('portfolio.urls')),
     path("escola/", include("escola.urls")),  #     <- rota para aplicação web escola
-    path("", include("escola.urls")),  #  rota para app escola sem precisar de escrever "escola"  
+    path("", include("escola.urls")), 
 ]
+      
+
 
 # Serve ficheiros media em DEBUG
 if settings.DEBUG:

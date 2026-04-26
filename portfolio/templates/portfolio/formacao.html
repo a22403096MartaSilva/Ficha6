@@ -1,0 +1,15 @@
+{% extends 'portfolio/layout.html' %}
+
+{% block content %}
+
+<h3>Formacao</h3>
+
+<form action="{% url 'formacao' %}" method="post" enctype="multipart/form-data">
+    {% csrf_token %}
+    <table>
+        {{ form }}
+    </table>
+    <input type="submit" value="Guardar formacao">
+</form>
+
+{% endblock %}

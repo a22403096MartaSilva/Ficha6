@@ -1,0 +1,12 @@
+{% extends 'portfolio/layout.html' %}
+
+{% block content %}
+    <h3>Editar Formacao</h3>
+    
+    <form action="{% url 'edita_formacao' formacao.id %}" method="post" enctype='multipart/form-data'>
+      {% csrf_token %}
+      {{ form.as_p }}
+      <input type="submit" value="Guardar mudanças">
+    </form>      
+
+{% endblock %}

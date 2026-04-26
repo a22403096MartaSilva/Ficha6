@@ -1,0 +1,15 @@
+{% extends 'portfolio/layout.html' %}
+
+{% block content %}
+
+<h3>Tecnologia</h3>
+
+<form action="{% url 'tecnologia' %}" method="post" enctype="multipart/form-data">
+    {% csrf_token %}
+    <table>
+        {{ form }}
+    </table>
+    <input type="submit" value="Criar Tecnologia">
+</form>
+
+{% endblock %}

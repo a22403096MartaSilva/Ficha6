@@ -1,0 +1,15 @@
+{% extends 'portfolio/layout.html' %}
+
+{% block content %}
+
+<h3>Competencia</h3>
+
+<form action="{% url 'competencia' %}" method="post" enctype="multipart/form-data">
+    {% csrf_token %}
+    <table>
+        {{ form }}
+    </table>
+    <input type="submit" value="Criar Competencia">
+</form>
+
+{% endblock %}

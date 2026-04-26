@@ -1,0 +1,75 @@
+{% extends 'portfolio/layout.html' %}
+
+{% block content %}
+
+<h2>
+    {{ projeto.titulo }}
+    <a href="{% url 'edita_projeto' projeto.id %}" style="text-decoration: none;">
+        <button style="margin-right: 5px;">Editar projeto</button>
+    </a>
+    <a href="{% url 'apaga_projeto' projeto.id %}" style="text-decoration: none;">
+        <button>Apagar projeto</button>
+    </a>
+
+
+</h2>
+<hr>
+
+<p><strong>Ano:</strong> {{ projeto.ano }}</p>
+
+<p><strong>Descrição:</strong> {{ projeto.descricao }}</p>
+
+<!-- IMAGEM -->
+{% if projeto.imagem %}
+    <img src="{{ projeto.imagem.url }}" width="300px">
+{% endif %}
+
+<p><strong>Conceitos aplicados:</strong> {{ projeto.conceitos_aplicados }}</p>
+
+<p><strong>GitHub:</strong> 
+    <a href="{{ projeto.github_link }}">
+        {{ projeto.github_link }}
+    </a>
+</p>
+
+<p><strong>Vídeo Demo:</strong> 
+    <a href="{{ projeto.video_demo }}">
+        Ver vídeo
+    </a>
+</p>
+
+<p><strong>Unidade curricular:</strong> {{ projeto.unidade_curricular }}</p>
+
+
+<!-- TECNOLOGIAS -->
+<h3>Tecnologias</h3>
+<ul>
+{% for tecnologia in projeto.tecnologias.all %}
+    <li>
+        <a href="{% url 'pagina_tecnologia' tecnologia.id %}">
+            {{ tecnologia.nome }}
+        </a>
+    </li>
+{% empty %}
+    <li>Sem tecnologias</li>
+{% endfor %}
+</ul>
+
+<!-- COMPETÊNCIAS -->
+<h3>Competências</h3>
+<ul>
+{% for comp in projeto.competencias.all %}
+    <li>
+        <a href="{% url 'pagina_competencia' comp.id %}">
+            {{ comp.nome }}
+        </a>
+        
+    </li>
+{% empty %}
+    <li>Sem competências</li>
+{% endfor %}
+</ul>
+</hr>
+
+
+{% endblock %}
