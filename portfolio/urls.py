@@ -7,6 +7,10 @@ urlpatterns = [
 
     path('', views.index_view, name='index'),
 
+    #Sobre esta aplicação
+
+    path('sobre/', views.sobre_view, name='sobre'),
+
     
 
     path('projeto/', views.projeto_view, name="projeto"),

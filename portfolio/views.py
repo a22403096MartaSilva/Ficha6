@@ -9,6 +9,7 @@ from .models import Projeto
 from .models import Tecnologia
 from .models import Competencia
 from .models import Formacao
+from .models import MakingOf
 
 #Página principal
 
@@ -20,16 +21,19 @@ def index_view(request):
 
     return render(request, 'portfolio/index.html', context)
 
+#Sobre esta aplicação
 
+def sobre_view(request):
+    tecnologias = Tecnologia.objects.all()
+    makingofs = MakingOf.objects.all()
 
+    context = {
+        'tecnologias': tecnologias,
+        'makingofs': makingofs,
+    }
 
+    return render(request, 'portfolio/sobre.html', context)
 
-def pagina_formacoes_view(request):
-    formacoes = Formacao.objects.all()
-
-    return render(request, 'portfolio/pagina_formacoes.html', {
-        'formacoes': formacoes
-    })
 
 
 
