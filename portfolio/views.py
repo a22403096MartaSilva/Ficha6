@@ -24,7 +24,10 @@ def index_view(request):
 #Sobre esta aplicação
 
 def sobre_view(request):
-    tecnologias = Tecnologia.objects.all()
+    tecnologias = Tecnologia.objects.filter(nome__in=[
+        'Django', 'Python', 'HTML', 'Git', 'GitHub'
+    ])
+
     makingofs = MakingOf.objects.all()
 
     context = {

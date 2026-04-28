@@ -1,11 +1,152 @@
-<h3>Making Of</h3>
+<h3>1. Arquitetura MVT do Django</h3>
 
 <p>
-O Making Of documenta o processo de desenvolvimento da aplicação, incluindo
-decisões de modelação, dificuldades encontradas, alterações realizadas,
-utilização de IA e versões do diagrama entidade-relação.
+O Django utiliza a arquitetura MVT (Model, View, Template), que separa
+a aplicação em três partes: dados, lógica e apresentação.
 </p>
 
-<a href="/media/makingof/MakingOf.pdf">
+<p>
+O <strong>Model</strong> representa os dados da aplicação. No meu projeto,
+os models estão no ficheiro models.py e incluem entidades como Projeto,
+Tecnologia, Competência, Formação e Making Of. Estes models definem como
+os dados são guardados na base de dados.
+</p>
+
+<p>
+A <strong>View</strong> trata da lógica da aplicação. No meu projeto, as views
+estão no ficheiro views.py. Por exemplo, a index_view mostra a lista de
+projetos e a projeto_view permite criar um novo projeto através de um formulário.
+</p>
+
+<p>
+O <strong>Template</strong> é responsável pela apresentação visual. São ficheiros
+HTML que mostram os dados ao utilizador, como index.html, pagina_projeto.html
+e sobre.html.
+</p>
+
+<p>
+O fluxo de informação funciona da seguinte forma: o utilizador acede a uma URL
+no browser, o Django procura essa URL no ficheiro urls.py, chama a view
+correspondente, a view pode consultar ou guardar dados através dos models,
+e depois devolve um template HTML ao utilizador.
+</p>
+
+<p>
+Por exemplo, quando o utilizador acede à página inicial (/), o Django chama
+a index_view. Esta view vai buscar os projetos à base de dados com
+Projeto.objects.all() e envia-os para o template index.html.
+</p>
+
+<p>
+Outro exemplo é a criação de um projeto. Quando o utilizador acede a /projeto/,
+a view projeto_view apresenta um formulário. Quando o formulário é submetido,
+os dados são validados e guardados na base de dados.
+</p>
+
+<h4>Desenho da arquitetura MVT</h4>
+<img src="/media/makingof/mvt.jpg" width="400">
+
+<h4>Vídeo tutorial</h4>
+<p>
+O vídeo tutorial será adicionado posteriormente.
+</p>
+
+
+
+
+<h3>2. Modelação</h3>
+
+<p>
+A modelação da aplicação foi feita no ficheiro models.py. Cada classe
+representa uma tabela na base de dados e cada atributo representa um campo.
+</p>
+
+<p>
+No meu projeto foram criadas as seguintes entidades:
+Projeto, Tecnologia, Competência, Formação, MakingOf, EmpresaParceira, Docente, Licenciatura, TFC e UnidadeCurricular. Para esta website foram utilizadas as 5 primeiras.
+</p>
+
+<p>
+Existem relações entre estas entidades. Por exemplo, um Projeto pode ter
+várias Tecnologias e várias Competências. Uma Formação também pode estar
+associada a várias Competências.
+</p>
+
+<h4>Diagrama entidade-relação</h4>
+<img src="/media/makingof/versão 3.jpeg" width="400">
+
+
+
+
+<h3>3. Tecnologias utilizadas</h3>
+
+<p>
+As tecnologias usadas para construir esta aplicação estão registadas na entidade
+Tecnologia e são apresentadas abaixo. Cada tecnologia pode ser aberta na sua
+página de detalhe dentro da aplicação.
+</p>
+
+<ul>
+{% for tecnologia in tecnologias %}
+    <li>
+        <a href="{% url 'pagina_tecnologia' tecnologia.id %}">
+            {{ tecnologia.nome }}
+        </a>
+    </li>
+{% empty %}
+    <li>Ainda não existem tecnologias registadas.</li>
+{% endfor %}
+</ul>
+
+<h3>4. Estrutura das páginas</h3>
+
+<p>
+A aplicação está organizada a partir da página principal, onde o utilizador
+pode aceder aos projetos, formações e making of. Existem também páginas de
+detalhe e páginas para criar, editar e apagar dados.
+</p>
+
+<img src="/media/makingof/mapa_navegacao.jpg" width="400">
+
+<h3>5. Repositório GitHub</h3>
+
+<p>
+O projeto está disponível no GitHub:
+<a href="https://github.com/a22403096MartaSilva/Ficha6" target="_blank">
+    Ver repositório
+</a>
+</p>
+
+<p>
+O GitHub foi utilizado para guardar e gerir o código da aplicação ao longo
+do desenvolvimento. Sempre que foram feitas alterações, estas foram guardadas
+através de commits.
+</p>
+
+<p>
+O uso do GitHub traz várias vantagens no desenvolvimento de software, como:
+</p>
+
+<ul>
+    <li>Guardar diferentes versões do projeto</li>
+    <li>Facilitar a organização do código</li>
+    <li>Permitir recuperar versões anteriores em caso de erro</li>
+    <li>Manter uma cópia online do projeto</li>
+</ul>
+
+<h3>6. Making Of</h3>
+
+<p>
+O Making Of documenta todo o processo de desenvolvimento da aplicação,
+incluindo decisões tomadas, dificuldades encontradas, erros e respetivas
+correções, bem como a evolução da modelação.
+</p>
+
+<p>
+Este documento permite compreender melhor como a aplicação foi construída
+ao longo do tempo.
+</p>
+
+<a href="/media/makingof/MakingOf.pdf" target="_blank">
     <button>Ver Making Of completo</button>
 </a>
