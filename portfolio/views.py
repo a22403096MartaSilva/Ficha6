@@ -25,7 +25,7 @@ def index_view(request):
 
 def sobre_view(request):
     tecnologias = Tecnologia.objects.filter(nome__in=[
-        'Django', 'Python', 'HTML', 'Git', 'GitHub'
+        'Django', 'Python', 'HTML', 'Git'
     ])
 
     makingofs = MakingOf.objects.all()
