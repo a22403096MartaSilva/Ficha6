@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'portfolio',
     'escola',
+    'accounts',
 ]
 
 MIDDLEWARE = [
@@ -126,3 +127,4 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
 # URL pública para aceder aos ficheiros
 MEDIA_URL = '/media/'
+LOGIN_URL = 'login'

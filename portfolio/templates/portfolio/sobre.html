@@ -25,14 +25,14 @@ e sobre.html.
 </p>
 
 <p>
-O fluxo de informação funciona da seguinte forma: o utilizador acede a uma URL
+O fluxo de informação funciona da seguinte forma: o utilizador acede a um URL
 no browser, o Django procura essa URL no ficheiro urls.py, chama a view
 correspondente, a view pode consultar ou guardar dados através dos models,
 e depois devolve um template HTML ao utilizador.
 </p>
 
 <p>
-Por exemplo, quando o utilizador acede à página inicial (/), o Django chama
+Por exemplo, quando o utilizador acede à página inicial, o Django chama
 a index_view. Esta view vai buscar os projetos à base de dados com
 Projeto.objects.all() e envia-os para o template index.html.
 </p>

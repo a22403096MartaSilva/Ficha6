@@ -3,10 +3,11 @@
 {% block content %}
 
 <h2>Projetos</h2>
-
+{% if gestor %}
 <a href="{% url 'projeto' %}">
     <button>Criar novo projeto</button>
 </a>
+{% endif %}
 
 <ul>
 {% for projeto in projetos %}

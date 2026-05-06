@@ -4,12 +4,16 @@
 
 <h2>
     {{ projeto.titulo }}
+    {% if gestor %}
     <a href="{% url 'edita_projeto' projeto.id %}" style="text-decoration: none;">
         <button style="margin-right: 5px;">Editar projeto</button>
     </a>
+    
     <a href="{% url 'apaga_projeto' projeto.id %}" style="text-decoration: none;">
         <button>Apagar projeto</button>
     </a>
+    {% endif %}
+    
 
 
 </h2>

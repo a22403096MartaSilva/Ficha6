@@ -1,0 +1,22 @@
+{% extends 'portfolio/layout.html' %}
+
+{% block content %}
+<h2>Tecnologias</h2>
+
+{% if gestor %}
+
+<a href="{% url 'tecnologia' %}">
+    <button>Criar nova tecnologia</button>
+</a>
+{% endif %}
+
+<ul>
+{% for tecnologia in tecnologias %}
+    <li>
+        <a href="{% url 'pagina_tecnologia' tecnologia.id %}">
+            {{ tecnologia.nome }}
+        </a>
+    </li>
+{% endfor %}
+</ul>
+{% endblock %}

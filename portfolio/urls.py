@@ -41,5 +41,6 @@ urlpatterns = [
     path('formacao/<int:formacao_id>/', views.pagina_formacao_view, name='pagina_formacao'),
 
 
+
     
 ]

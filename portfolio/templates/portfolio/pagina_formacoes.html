@@ -4,9 +4,11 @@
 
 <h2>
     Formações
+    {% if gestor %}
      <a href="{% url 'formacao' %}">
         <button>Criar nova formação</button>
     </a>
+    {% endif %}
 </h2>
 
 <ul>

@@ -4,10 +4,12 @@
 
 <h2>Competências</h2>
 
+{% if gestor %}
+
 <a href="{% url 'competencia' %}">
     <button>Criar nova competência</button>
 </a>
-
+{% endif %}
 <ul>
 {% for competencia in competencias %}
     <li>

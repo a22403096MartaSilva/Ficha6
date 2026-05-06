@@ -4,14 +4,15 @@
 
 <h2>
     {{ competencia.nome }}
-
+    {% if gestor %}
     <a href="{% url 'edita_competencia' competencia.id %}" style="text-decoration: none;">
         <button>Editar competência</button>
     </a>
-
+ 
     <a href="{% url 'apaga_competencia' competencia.id %}" style="text-decoration: none;">
         <button>Apagar competência</button>
     </a>
+    {% endif %}
 </h2>
 
 <p><strong>Nome:</strong> {{ competencia.nome }}</p>

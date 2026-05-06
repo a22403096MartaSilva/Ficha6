@@ -25,8 +25,9 @@ from django.conf.urls.static import static
 urlpatterns = [
     path("admin/", admin.site.urls),
     path('', include('portfolio.urls')),
-    path("escola/", include("escola.urls")),  #     <- rota para aplicação web escola
-    path("", include("escola.urls")), 
+      #   accounts/  <- rota para aplicação web escola
+    path('accounts/', include('accounts.urls')),
+    path("escola/", include("escola.urls")),
 ]
       
 

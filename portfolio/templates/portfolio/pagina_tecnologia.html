@@ -3,13 +3,15 @@
 {% block content %}
 <h2>
     {{ tecnologia.nome }}
+    {% if gestor %}
      <a href="{% url 'edita_tecnologia' tecnologia.id %}" style="text-decoration: none;">
         <button style="margin-right: 5px;">Editar tecnologia</button>
     </a>
-
+   
     <a href="{% url 'apaga_tecnologia' tecnologia.id %}" style="text-decoration: none;">
         <button>Apagar tecnologia</button>
     </a>
+    {% endif %}
 </h2>
 
 <p><strong>Tipo:</strong> {{ tecnologia.tipo }}</p>

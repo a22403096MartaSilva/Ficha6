@@ -4,14 +4,19 @@
 
 <h2>
     {{ formacao.nome }}
+    {% if gestor %}
+
+   
 
     <a href="{% url 'edita_formacao' formacao.id %}" style="text-decoration: none;">
         <button style="margin-right: 5px;">Editar formação</button>
     </a>
+    
 
     <a href="{% url 'apaga_formacao' formacao.id %}" style="text-decoration: none;">
         <button>Apagar formação</button>
     </a>
+    {% endif %}
 </h2>
 
 <p><strong>Instituição:</strong> {{ formacao.instituicao }}</p>
