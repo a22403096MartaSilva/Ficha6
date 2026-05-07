@@ -28,6 +28,7 @@ urlpatterns = [
       #   accounts/  <- rota para aplicação web escola
     path('accounts/', include('accounts.urls')),
     path("escola/", include("escola.urls")),
+    path('', include('artigos.urls')),
 ]
       
 

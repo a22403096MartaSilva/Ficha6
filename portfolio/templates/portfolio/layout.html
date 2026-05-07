@@ -49,6 +49,10 @@
             <a href="{% url 'sobre' %}">
                 <button>Sobre esta aplicação</button>
             </a>
+
+            <a href="{% url 'artigos' %}">
+                <button>Artigos</button>
+            </a>
             
             <div style="margin-left: auto;">
                 {% if request.user.is_authenticated %}

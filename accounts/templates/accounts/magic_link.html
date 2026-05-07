@@ -1,0 +1,23 @@
+{% extends 'portfolio/layout.html' %}
+
+{% block content %}
+
+<h2>Login por link mágico</h2>
+
+<form method="post">
+
+    {% csrf_token %}
+
+    <p>Email:
+        <input type="email" name="email">
+    </p>
+
+    <input type="submit" value="Entrar">
+
+</form>
+
+{% if mensagem %}
+    <p>{{ mensagem }}</p>
+{% endif %}
+
+{% endblock %}

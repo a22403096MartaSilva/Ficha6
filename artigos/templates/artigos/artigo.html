@@ -1,0 +1,59 @@
+{% extends 'portfolio/layout.html' %}
+
+{% block content %}
+
+<h2>{{ artigo.titulo }}</h2>
+
+<p><strong>Autor:</strong> {{ artigo.autor.username }}</p>
+<p><strong>Data:</strong> {{ artigo.data_criacao }}</p>
+
+{% if artigo.fotografia %}
+    <img src="{{ artigo.fotografia.url }}" width="300">
+{% endif %}
+
+<p>{{ artigo.texto }}</p>
+
+{% if artigo.link_externo %}
+    <p>
+        <a href="{{ artigo.link_externo }}" target="_blank">
+            Link externo
+        </a>
+    </p>
+{% endif %}
+
+<p>Likes: {{ artigo.likes.count }}</p>
+
+<a href="{% url 'like_artigo' artigo.id %}">
+    <button>Gostar</button>
+</a>
+
+{% if autor and artigo.autor == request.user %}
+    <a href="{% url 'edita_artigo' artigo.id %}">
+        <button>Editar artigo</button>
+    </a>
+{% endif %}
+
+<h3>Comentários</h3>
+
+<ul>
+{% for comentario in artigo.comentarios.all %}
+    <li>
+        <strong>{{ comentario.autor.username }}:</strong>
+        {{ comentario.texto }}
+    </li>
+{% empty %}
+    <li>Ainda não existem comentários.</li>
+{% endfor %}
+</ul>
+
+{% if request.user.is_authenticated %}
+<form method="post">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <input type="submit" value="Comentar">
+</form>
+{% else %}
+<p>Faça login para comentar.</p>
+{% endif %}
+
+{% endblock %}

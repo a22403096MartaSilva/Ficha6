@@ -5,4 +5,6 @@ urlpatterns = [
     path("login/", views.login_view, name="login"),
     path("logout/", views.logout_view, name="logout"),
     path("registo/", views.registo_view, name="registo"),
+    path('magic-link/', views.magic_link_view, name='magic_link'),
+    path('autentica/<int:user_id>/', views.autentica_magic_link_view, name='autentica_magic_link'),
 ]

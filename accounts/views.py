@@ -1,6 +1,7 @@
 from django.shortcuts import render, redirect
 from django.contrib.auth import authenticate, login, logout
 from .forms import RegistoForm
+from django.contrib.auth.models import User
 
 def login_view(request):
     if request.method == "POST":
@@ -36,4 +37,31 @@ def registo_view(request):
     return render(request, "accounts/registo.html", {
         "form": form
     })
+
+def magic_link_view(request):
+
+    if request.method == "POST":
+
+        email = request.POST["email"]
+
+        try:
+            user = User.objects.get(email=email)
+
+            return redirect('autentica_magic_link', user.id)
+
+        except:
+            return render(request, 'accounts/magic_link.html', {
+                'mensagem': 'Email não encontrado'
+            })
+
+    return render(request, 'accounts/magic_link.html')
+
+
+def autentica_magic_link_view(request, user_id):
+
+    user = User.objects.get(id=user_id)
+
+    login(request, user)
+
+    return redirect('index')
 # Create your views here.

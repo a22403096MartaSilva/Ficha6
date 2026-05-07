@@ -17,8 +17,12 @@
     <p>{{ mensagem }}</p>
 {% endif %}
 
-<a href="{% url 'registo' %}">
+<a href="{% url 'registo' %}" style="text-decoration: none; margin-right: 10px;">
     <button>Criar conta</button>
+</a>
+
+<a href="{% url 'magic_link' %}">
+    <button>Login por link mágico</button>
 </a>
 
 {% endblock %}

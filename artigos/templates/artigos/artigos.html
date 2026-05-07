@@ -1,0 +1,26 @@
+{% extends 'portfolio/layout.html' %}
+
+{% block content %}
+
+<h2>Artigos</h2>
+
+{% if autor %}
+<a href="{% url 'novo_artigo' %}">
+    <button>Criar artigo</button>
+</a>
+{% endif %}
+
+<ul>
+{% for artigo in artigos %}
+    <li>
+        <a href="{% url 'artigo' artigo.id %}">
+            {{ artigo.titulo }}
+        </a>
+        - {{ artigo.autor.username }}
+    </li>
+{% empty %}
+    <li>Ainda não existem artigos.</li>
+{% endfor %}
+</ul>
+
+{% endblock %}
