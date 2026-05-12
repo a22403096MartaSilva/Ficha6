@@ -3,33 +3,97 @@
     <title>Portfolio</title>
     <style>
         body {
-            background: white;
+            background-color: #fdf6f9;
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 20px;
+            color: #444;
         }
 
-        .errorlist {
-            display: none;
+        header {
+            margin-bottom: 20px;
         }
 
-        header nav {
+        h1 {
+            color: #d46a92;
+        }
+
+        h2, h3 {
+            color: #b85c82;
+        }
+
+        nav {
             display: flex;
-            flex-direction: row;
-            justify-content: flex-start;
-            gap: 5px;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+
+        nav a {
+            text-decoration: none;
+        }
+
+        button,
+        input[type="submit"] {
+            background-color: #f4bfd3;
+            border: none;
+            padding: 8px 14px;
+            border-radius: 10px;
+            color: #5c3a4a;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        button:hover,
+        input[type="submit"]:hover {
+            background-color: #e8a9c2;
+        }
+
+        main {
+            background-color: white;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.08);
+        }
+
+        img {
+            border-radius: 12px;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        input,
+        textarea {
+            width: 100%;
+            padding: 8px;
+            margin-top: 5px;
+            margin-bottom: 15px;
+            border-radius: 8px;
+            border: 1px solid #ddd;
+        }
+
+        textarea {
+            height: 120px;
+        }
+
+        a {
+            color: #c0567d;
+        }
+
+        a:hover {
+            color: #a63d66;
         }
 
         footer {
-            position: fixed;
-            bottom: 10px;
-        }
-
-        table th {
-            text-align: right;
-        }
-
-        .helptext {
-            font-size: 0.7em;
+            margin-top: 30px;
             color: gray;
+            font-size: 0.9em;
         }
+
     </style>
 </head>
 

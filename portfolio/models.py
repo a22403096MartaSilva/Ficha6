@@ -107,21 +107,23 @@ class Projeto(models.Model):
         return self.titulo
     
 class TFC(models.Model):
-    titulo = models.CharField(max_length=200)
-    autor = models.CharField(max_length=200)
-    orientador = models.CharField(max_length=200)
-    curso = models.CharField(max_length=200)
+    titulo = models.TextField()
+    autor = models.TextField()
+    orientador = models.TextField()
+    curso = models.TextField()
     ano = models.IntegerField()
     resumo = models.TextField()
     classificacao = models.IntegerField()
+
     tecnologias = models.ManyToManyField(
         Tecnologia,
         related_name='tfcs'
     )
 
     def __str__(self):
-        return self.titulo   
-
+        return self.titulo
+    
+    
 class Formacao(models.Model):
     nome = models.CharField(max_length=200)
     instituicao = models.CharField(max_length=200)

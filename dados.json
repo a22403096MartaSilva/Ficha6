@@ -1,0 +1,2370 @@
+[
+{
+  "model": "portfolio.empresaparceira",
+  "pk": 2,
+  "fields": {
+    "nome": "CGI",
+    "area_atividade": "Consultoria e serviços de tecnologia da informação",
+    "descricao": "Empresa multinacional especializada em consultoria de IT, desenvolvimento de software e integração de sistemas.",
+    "website": "https://www.cgi.com/en",
+    "logo": "empresas/CGI_logo.png"
+  }
+},
+{
+  "model": "portfolio.empresaparceira",
+  "pk": 3,
+  "fields": {
+    "nome": "CyberS3c",
+    "area_atividade": "Cibersegurança",
+    "descricao": "Empresa dedicada à segurança informática, proteção de sistemas e análise de vulnerabilidades.",
+    "website": "https://www.cybers3c.pt/",
+    "logo": "empresas/cyber_logo.jpg"
+  }
+},
+{
+  "model": "portfolio.empresaparceira",
+  "pk": 4,
+  "fields": {
+    "nome": "Microsoft",
+    "area_atividade": "Tecnologia e software",
+    "descricao": "Multinacional tecnológica que desenvolve software, serviços cloud e soluções empresariais.",
+    "website": "https://www.microsoft.com/pt-pt",
+    "logo": "empresas/logo_m.jpg"
+  }
+},
+{
+  "model": "portfolio.licenciatura",
+  "pk": 1,
+  "fields": {
+    "nome": "Informática de Gestão",
+    "grau": "Licenciatura",
+    "area_cientifica": "Ciências Informáticas",
+    "duracao": 3,
+    "ects": 180,
+    "descricao": "A licenciatura de Informática de Gestão colmata uma das principais necessidades das empresas, em particular no aproximar as áreas de negócio (Marketing, Vendas, Operações, etc.) com as áreas principais de Tecnologias e Sistemas de Informação. \r\nSaber falar negócio e tecnologia é essencial, pois são \"linguagens\" diferentes. Apenas colaboradores capazes de entender a forma como as empresas se estruturam e posicionam nos seus mercados, associado a conhecimentos tecnológicos, poderão potenciar um perfeito alinhamento Tecnologia-Negócio. Este é o foco de quem realiza a licenciatura de Informática de Gestão. \r\n\r\nVárias empresas estão envolvidas ao longo do curso, de forma a incorporar a realidade do mercado empresarial, bem como um corpo docente com experiência prática empresarial de forma a sustentar as bases teóricas e práticas aos alunos que realizam um percurso de elevada qualidade de conhecimentos.",
+    "imagem": "licenciaturas/InformaticaGestao.jpeg",
+    "objetivos": "A licenciatura em Informática de Gestão pretende formar especialistas aptos a manipular, editar e analisar informação, nomeadamente em ordem ao suporte à tomada de decisão, ao nível conceptual e abstrato, no contexto de atividades de gestão, quer em organizações públicas, quer em organizações privadas. A licenciatura envolve um conjunto de matérias de formação elementar, de base e especializada, que permitem ao futuro profissional atuar com rigor científico, atualidade tecnológica e capacidade de gestão operativa e estratégica, em domínios que englobam a análise, conceção, modelação, produção, operação e manutenção de aplicativos informáticos, redes de informática em organizações, ferramentas de suporte à decisão e aplicativos informáticos para gestão empresarial.",
+    "url_curso": "https://www.ulusofona.pt/lisboa/licenciaturas/informatica-de-gestao",
+    "empresas_parceiras": []
+  }
+},
+{
+  "model": "portfolio.licenciatura",
+  "pk": 2,
+  "fields": {
+    "nome": "Engenharia Informática",
+    "grau": "Licenciatura",
+    "area_cientifica": "Informática",
+    "duracao": 3,
+    "ects": 180,
+    "descricao": "O curso de licenciatura em Engenharia Informática da Universidade Lusófona forma licenciados capazes de assumir posições de destaque em projetos de engenharia informática ou equipas de desenvolvimento e consultadoria, na área da engenharia dos sistemas de informação, assumindo pela sua formação e atitude papéis relevantes na geração de inovação e riqueza. Nesse sentido, os estudantes obtêm as competências adequadas à conceção, realização e manutenção de sistemas informáticos, programação de aplicações e de sistemas, desenho arquiteturas de computação e comunicações, gestão de sistemas de informação e de conhecimento, assim como à compreensão e resolução dos problemas associados.",
+    "imagem": "licenciaturas/ei.png",
+    "objetivos": "Os objetivos desta licenciatura são os seguintes:\r\n1. Fornecer um perfil profissional reconhecido no mercado, com fortes competências em Tecnologias de Informação e Comunicação, garantindo um elevado grau de empregabilidade e a possibilidade de prosseguir estudos de 2º ciclo com excelentes perspectivas de sucesso.\r\n2. Garantir um ensino de excelência assente num corpo docente de qualidade, integrando especialistas e doutorados com elevado potencial pedagógico e actividade comprovada em investigação.\r\n3. Dar acesso a estágios e formação em ambiente empresarial no decorrer do percurso académico, em colaboração com empresas líderes de mercado, potenciando níveis de qualificação profissional elevados antes da conclusão do curso.\r\n4. Garantir a realização de Trabalhos Finais de Curso inseridos em projectos inovadores, pelo facto dos muitos dos seus docentes estarem agregados a Centros de Investigação reconhecidos, participar em projectos de I&D e desenvolver parcerias com o meio empresarial.\r\n5. Desenvolver o espírito empreendedor dos alunos, através do Centro de Incubação de Empresas PLAY que apoia ideias de jovens empreendedores, pote",
+    "url_curso": "https://www.ulusofona.pt/lisboa/licenciaturas/engenharia-informatica",
+    "empresas_parceiras": []
+  }
+},
+{
+  "model": "portfolio.docente",
+  "pk": 1,
+  "fields": {
+    "nome": "JOSÉ MANUEL CATARINO BARREIROS CASCAIS BRÁS",
+    "email": "cascaisbras@gmail.com",
+    "pagina_pessoal": "https://www.linkedin.com/in/josecascaisbras/",
+    "foto": "docentes/prof_1.jpg"
+  }
+},
+{
+  "model": "portfolio.docente",
+  "pk": 2,
+  "fields": {
+    "nome": "RUI PEDRO NOBRE RIBEIRO",
+    "email": "ruipedronobreribeiro@gmail.com",
+    "pagina_pessoal": "https://www.linkedin.com/in/ruipedronobreribeiro/",
+    "foto": "docentes/prof2.jpg"
+  }
+},
+{
+  "model": "portfolio.docente",
+  "pk": 3,
+  "fields": {
+    "nome": "LUCIO STUDER FERREIRA",
+    "email": "lucio.studer@gmail.com",
+    "pagina_pessoal": "https://www.linkedin.com/in/luciostuderferreira/",
+    "foto": "docentes/PROF_3.jpg"
+  }
+},
+{
+  "model": "portfolio.docente",
+  "pk": 4,
+  "fields": {
+    "nome": "BEREND WILLEM MARTIJN KUIPERS",
+    "email": "martijn.kuipers@gmail.com",
+    "pagina_pessoal": "https://www.linkedin.com/in/martijn-kuipers-50799352/",
+    "foto": "docentes/prof_4.jpg"
+  }
+},
+{
+  "model": "portfolio.docente",
+  "pk": 5,
+  "fields": {
+    "nome": "JOÃO CARLOS PALMELA PINHEIRO CALDEIRA",
+    "email": "joao_caldeira@kiion.com",
+    "pagina_pessoal": "https://www.linkedin.com/in/joao-carlos-caldeira/",
+    "foto": "docentes/prof_5.jpg"
+  }
+},
+{
+  "model": "portfolio.docente",
+  "pk": 6,
+  "fields": {
+    "nome": "CARLOS DO ROSÁRIO",
+    "email": null,
+    "pagina_pessoal": null,
+    "foto": ""
+  }
+},
+{
+  "model": "portfolio.docente",
+  "pk": 7,
+  "fields": {
+    "nome": "RUI LOPES CARDOSO",
+    "email": null,
+    "pagina_pessoal": null,
+    "foto": ""
+  }
+},
+{
+  "model": "portfolio.docente",
+  "pk": 8,
+  "fields": {
+    "nome": "BRUNO CIPRIANO",
+    "email": null,
+    "pagina_pessoal": null,
+    "foto": ""
+  }
+},
+{
+  "model": "portfolio.unidadecurricular",
+  "pk": 1,
+  "fields": {
+    "nome": "Programação Web",
+    "ano": 2,
+    "semestre": 2,
+    "ects": 6,
+    "descricao": "Esta Unidade Curricular pretende dar formação na área da programação Web em geral, e em particular\r\nno desenvolvimento de aplicações Web back-end e front-end, providenciando uma visão global do\r\ndesenvolvimento moderno para a Web. No front-end, são introduzidos conceitos de estruturação,\r\nestilização e interação de conteúdos através das linguagens HTML, CSS e JavaScript, in. No back-end,\r\né ensinado o desenvolvimento de aplicações empresariais seguindo o padrão de desenho\r\nmodel-view-control, recorrendo à linguagem Python e a Web framework django. Pretende-se estimular a\r\ncriatividade e imaginação no desenvolvimento de aplicações inovadoras que sejam eficientes, escaláveis\r\ne fáceis de modificar por um lado, e que ofereçam uma boa experiência para o utilizador. Esta é uma UC\r\nfundamental para qualquer profissional da área da informática, pois fornece um conjunto de\r\nconhecimentos e ferramentas que serão essenciais em projetos empresariais em que virão a estar\r\ninseridos.",
+    "imagem": "ucs/pw.jpg",
+    "codigo": "11195",
+    "objetivos": "- Entender o funcionamento da Internet e da Web .\r\n- Compreender os princípios da programação Web e seus principais padrões de desenho .\r\n- Aplicar estes conceitos, usando várias tecnologias ( HTML, CSS, JavaScript, Python and\r\nDjango¿ ).\r\n- Arquitetar aplicações eficientes, de fácil manutenção, que corram na Web.\r\n- Avaliar as diferentes estratégias de desenho, sabendo escolher a abordagem que mais se\r\nadequa ao contexto.\r\n- Ser capaz de construir e implantar na cloud aplicações Web complexas e criativas,\r\ntotalmente funcionais (full stack).",
+    "licenciatura": [
+      1,
+      2
+    ],
+    "docentes": [
+      3
+    ]
+  }
+},
+{
+  "model": "portfolio.unidadecurricular",
+  "pk": 2,
+  "fields": {
+    "nome": "Engenharia de Requesitos e Testes",
+    "ano": 2,
+    "semestre": 2,
+    "ects": 6,
+    "descricao": "A UC de Análise e Conceção de Sistemas tem por objetivo garantir um enquadramento de gestão de\r\nSistemas de Informação e o seu impacto na componente aplicacional, onde a componente de\r\nmetodologia e engenharia de requisitos, tal como a metodologia e estruturação de testes de software,\r\nsejam unitários ou agregados, são essenciais para o sucesso de negócio das empresas.",
+    "imagem": "ucs/ert.png",
+    "codigo": "22512",
+    "objetivos": "- Entender o que é Gestão de Sistemas de Informação\r\n- Por que é fundamental definir requisitos\r\n- Saber desenvolver e gerenciar uma metodologia de definição e estrutura de requisitos\r\n- Como alinhar os testes com os requisitos\r\n- Compreender a importância de modelar os requisitos e testes\r\n- Fundamentos de Gestão de Projetos",
+    "licenciatura": [],
+    "docentes": [
+      1,
+      2
+    ]
+  }
+},
+{
+  "model": "portfolio.unidadecurricular",
+  "pk": 3,
+  "fields": {
+    "nome": "Redes de Computadores",
+    "ano": 2,
+    "semestre": 2,
+    "ects": 6,
+    "descricao": "Esta unidade curricular aborda os fundamentos das redes de computadores e da Internet, essenciais\r\npara profissionais que integram tecnologia e gestão empresarial. Os estudantes exploram a arquitetura\r\nde rede em camadas, compreendendo protocolos como HTTP, DNS, TCP e IP que sustentam os\r\nsistemas de informação empresariais. A UC proporciona as bases para Sistemas de Informação na\r\nNuvem, sendo crucial para quem desenvolve e gere infraestruturas de TI organizacionais. Permite\r\ncompreender como as aplicações empresariais comunicam em rede, avaliar requisitos de conectividade,\r\ne dialogar eficazmente com equipas técnicas sobre soluções de infraestrutura e segurança.",
+    "imagem": "ucs/rc.png",
+    "codigo": "1793",
+    "objetivos": "Após a conclusão desta UC, os estudantes serão capazes de:\r\n1. Compreender a arquitetura da Internet e o modelo de camadas protocolar\r\n2. Analisar o funcionamento de protocolos aplicacionais (HTTP, SMTP, DNS)\r\n3. Distinguir os serviços de transporte UDP e TCP, incluindo mecanismos de controlo de fluxo e\r\ncongestão\r\n4. Configurar endereços IP, sub-redes, e compreender encaminhamento e NAT\r\n5. Explicar protocolos de encaminhamento (RIP, OSPF, BGP)\r\n6. Analisar protocolos de nível de ligação, incluindo Ethernet e WiFi\r\n7. Utilizar ferramentas de análise de rede como Wireshark e Cisco Packet Tracer",
+    "licenciatura": [],
+    "docentes": [
+      4
+    ]
+  }
+},
+{
+  "model": "portfolio.unidadecurricular",
+  "pk": 4,
+  "fields": {
+    "nome": "Sistemas de Suporte à Decisão",
+    "ano": 2,
+    "semestre": 2,
+    "ects": 6,
+    "descricao": "A UC de Sistemas de Suporte à Decisão / Business Intelligence tem por objetivo garantir que há a\r\nintrodução à temática de processos de análise de dados para apoio às áreas de gestão das empresas.\r\nNeste sentido, a UC tem um papel fundamental no ciclo de estudo na compreensão dos processos de\r\ngestão e decisão de organizações, para além de como colocar infraestruturas de dados ao serviço do\r\nnegócio empresarial.",
+    "imagem": "ucs/ssd.png",
+    "codigo": "7303",
+    "objetivos": "- Entender por que as empresas precisam de um ambiente de BI\r\n- Quais componentes da arquitetura existem para BI\r\n- Esquemas de modelação para DW\r\n- Conhecer os vários processos de manipulação de dados em ambientes DW\r\n- O que um colaborador/utilizador pode obter em interfaces de relatórios\r\n- Entender como incorporar LLMs e AI Agents num contexto de sistemas de suporte à decisão",
+    "licenciatura": [],
+    "docentes": [
+      5
+    ]
+  }
+},
+{
+  "model": "portfolio.unidadecurricular",
+  "pk": 5,
+  "fields": {
+    "nome": "Gestão Financeira",
+    "ano": 2,
+    "semestre": 2,
+    "ects": 6,
+    "descricao": "O principal objectivo desta unidade curricular consiste em introduzir aos alunos os conceitos\r\nfundamentais relacionados com a gestão financeira das organizações.",
+    "imagem": "ucs/gf.png",
+    "codigo": "324",
+    "objetivos": "OA1 - Definir os conceitos principais e âmbito da gestão financeira.\r\nOA2 - Avaliar obrigações e ações.\r\nOA3 - Preparar os elementos e aplicar técnicas adequadas para a decisão de investimento.\r\nOA4 - Compreender os conceitos de risco, rendibilidade e custo de capital; Explicar a teoria de carteira e\r\nmodelo Capital Asset Pricing Model; Selecionar e aplicar técnicas de análise risco.\r\nOA5 - Explicar as principais teorias da estrutura de capital; Avaliar fontes de financiamento da empresa;\r\nCalcular o WACC (Weighted-Average Cost of Capital).\r\nOA6 - Preparar os elementos e aplicar técnicas adequadas para avaliar negócios e empresas.",
+    "licenciatura": [],
+    "docentes": [
+      6
+    ]
+  }
+},
+{
+  "model": "portfolio.unidadecurricular",
+  "pk": 6,
+  "fields": {
+    "nome": "Cálculo Financeiro",
+    "ano": 1,
+    "semestre": 2,
+    "ects": 5,
+    "descricao": "A Unidade Curricular insere-se no plano geral de formação na Licenciatura de Informática de Gestão,\r\nprocurando dotar os alunos dos principais conceitos de Cálculo Financeiro visando o suporte\r\npara a tomada de decisão, temática crítica no contexto empresarial.",
+    "imagem": "ucs/CF.png",
+    "codigo": "154",
+    "objetivos": "Ensinar técnicas de cálculo financeiro com a finalidade de dotar o aluno com competências para\r\na execução prática do cálculo financeiro, nomeadamente:\r\n- Conhecer e compreender os conceitos básicos de cálculo financeiro\r\n- Obter prática de cálculo de atualização e capitalização\r\n- Saber calcular o valor de uma renda\r\n- Saber determinar as amortizações de empréstimos\r\n- Saber analisar as diversas fontes de financiamento das empresas\r\n- Saber construir folhas de cálculo para a resolução dos problemas de cálculo financeiro",
+    "licenciatura": [],
+    "docentes": [
+      7
+    ]
+  }
+},
+{
+  "model": "portfolio.unidadecurricular",
+  "pk": 7,
+  "fields": {
+    "nome": "Algoritmia e Estruturas de Dados",
+    "ano": 1,
+    "semestre": 2,
+    "ects": 6,
+    "descricao": "Esta UC surge no 2º semestre do 1º ano, na continuação do trabalho iniciado em Fundamentos de\r\nProgramação (FP). Em FP, os alunos deram os primeiros passos na programação e preocuparam-se\r\nprincipalmente em produzir programas correctos. Agora, em Algoritmia e Estruturas de Dados, irão\r\ncontinuar a produzir programas correctos mas com preocupações de desempenho, a nível de tempo de\r\nexecução e consumo de memória.\r\nEsta é uma UC fundamental no currículo de um Engenheiro Informático, que na sua vida profissional\r\nencontrará inúmeras situações em que terá que resolver problemas causados por fraco desempenho\r\ndas aplicações e que exigem um conhecimento sólido dos princípios subjacentes aos principais\r\nalgoritmos e estruturas de dados.\r\nNão obstante a aprendizagem de conceitos e técnicas de algoritmia e estruturas de dados, os alunos\r\ntrabalham outras competências fundamentais. Nomeadamente, o espírito crítico e a capacidade de\r\navaliar várias alternativas para resolver os problemas.",
+    "imagem": "ucs/aed.png",
+    "codigo": "13397",
+    "objetivos": "O objectivo desta unidade curricular é introduzir os conceitos fundamentais de algoritmos e das\r\nestruturas de dados básicas, numa perspetiva de resolver problemas complexos de uma forma eficiente.\r\nO aluno deverá ser capaz de analisar e avaliar a eficiência de um algoritmo sem necessidade de o\r\nimplementar ou testar. Deverá ser igualmente capaz de aplicar a estrutura de dados mais eficaz e\r\neficiente para resolver um determinado problema.\r\nConcretamente, o aluno deverá conseguir criar programas em Java cuja eficiência seja um critério\r\nsignificativo de sucesso (ex: pesquisa, ordenação).",
+    "licenciatura": [],
+    "docentes": [
+      8
+    ]
+  }
+},
+{
+  "model": "portfolio.tecnologia",
+  "pk": 236,
+  "fields": {
+    "nome": "Python",
+    "tipo": "",
+    "descricao": "",
+    "logo": "",
+    "link_oficial": "",
+    "nivel_preferencia": 0
+  }
+},
+{
+  "model": "portfolio.tecnologia",
+  "pk": 237,
+  "fields": {
+    "nome": "Sklearn",
+    "tipo": "",
+    "descricao": "",
+    "logo": "",
+    "link_oficial": "",
+    "nivel_preferencia": 0
+  }
+},
+{
+  "model": "portfolio.tecnologia",
+  "pk": 238,
+  "fields": {
+    "nome": "NET",
+    "tipo": "",
+    "descricao": "",
+    "logo": "",
+    "link_oficial": "",
+    "nivel_preferencia": 0
+  }
+},
+{
+  "model": "portfolio.tecnologia",
+  "pk": 239,
+  "fields": {
+    "nome": "C#",
+    "tipo": "",
+    "descricao": "",
+    "logo": "",
+    "link_oficial": "",
+    "nivel_preferencia": 0
+  }
+},
+{
+  "model": "portfolio.tecnologia",
+  "pk": 240,
+  "fields": {
+    "nome": "Dart",
+    "tipo": "",
+    "descricao": "",
+    "logo": "",
+    "link_oficial": "",
+    "nivel_preferencia": 0
+  }
+},
+{
+  "model": "portfolio.tecnologia",
+  "pk": 241,
+  "fields": {
+    "nome": "Docker",
+    "tipo": "",
+    "descricao": "",
+    "logo": "",
+    "link_oficial": "",
+    "nivel_preferencia": 0
+  }
+},
+{
+  "model": "portfolio.tecnologia",
+  "pk": 242,
+  "fields": {
+    "nome": "Entity Framework",
+    "tipo": "",
+    "descricao": "",
+    "logo": "",
+    "link_oficial": "",
+    "nivel_preferencia": 0
+  }
+},
+{
+  "model": "portfolio.tecnologia",
+  "pk": 243,
+  "fields": {
+    "nome": "Flutter",
+    "tipo": "",
+    "descricao": "",
+    "logo": "",
+    "link_oficial": "",
+    "nivel_preferencia": 0
+  }
+},
+{
+  "model": "portfolio.tecnologia",
+  "pk": 244,
+  "fields": {
+    "nome": "JSON",
+    "tipo": "",
+    "descricao": "",
+    "logo": "",
+    "link_oficial": "",
+    "nivel_preferencia": 0
+  }
+},
+{
+  "model": "portfolio.tecnologia",
+  "pk": 245,
+  "fields": {
+    "nome": "REST",
+    "tipo": "",
+    "descricao": "",
+    "logo": "",
+    "link_oficial": "",
+    "nivel_preferencia": 0
+  }
+},
+{
+  "model": "portfolio.tecnologia",
+  "pk": 246,
+  "fields": {
+    "nome": "SQL Server",
+    "tipo": "",
+    "descricao": "",
+    "logo": "",
+    "link_oficial": "",
+    "nivel_preferencia": 0
+  }
+},
+{
+  "model": "portfolio.tecnologia",
+  "pk": 247,
+  "fields": {
+    "nome": "Firebase",
+    "tipo": "",
+    "descricao": "",
+    "logo": "",
+    "link_oficial": "",
+    "nivel_preferencia": 0
+  }
+},
+{
+  "model": "portfolio.tecnologia",
+  "pk": 248,
+  "fields": {
+    "nome": "Bootstrap",
+    "tipo": "",
+    "descricao": "",
+    "logo": "",
+    "link_oficial": "",
+    "nivel_preferencia": 0
+  }
+},
+{
+  "model": "portfolio.tecnologia",
+  "pk": 249,
+  "fields": {
+    "nome": "CSS",
+    "tipo": "",
+    "descricao": "",
+    "logo": "",
+    "link_oficial": "",
+    "nivel_preferencia": 0
+  }
+},
+{
+  "model": "portfolio.tecnologia",
+  "pk": 250,
+  "fields": {
+    "nome": "Django",
+    "tipo": "Framework Web",
+    "descricao": "Django é um framework web em Python que permite desenvolver aplicações web de forma rápida e organizada. Utiliza o padrão MVC (Model-View-Template) e facilita a criação de bases de dados, formulários e interfaces administrativas.",
+    "logo": "tecnologias/django.jpg",
+    "link_oficial": "https://www.djangoproject.com/",
+    "nivel_preferencia": 4
+  }
+},
+{
+  "model": "portfolio.tecnologia",
+  "pk": 251,
+  "fields": {
+    "nome": "HTML",
+    "tipo": "",
+    "descricao": "",
+    "logo": "",
+    "link_oficial": "",
+    "nivel_preferencia": 0
+  }
+},
+{
+  "model": "portfolio.tecnologia",
+  "pk": 252,
+  "fields": {
+    "nome": "JavaScript",
+    "tipo": "",
+    "descricao": "",
+    "logo": "",
+    "link_oficial": "",
+    "nivel_preferencia": 0
+  }
+},
+{
+  "model": "portfolio.tecnologia",
+  "pk": 253,
+  "fields": {
+    "nome": "Matplotlib",
+    "tipo": "",
+    "descricao": "",
+    "logo": "",
+    "link_oficial": "",
+    "nivel_preferencia": 0
+  }
+},
+{
+  "model": "portfolio.tecnologia",
+  "pk": 254,
+  "fields": {
+    "nome": "NumPy",
+    "tipo": "",
+    "descricao": "",
+    "logo": "",
+    "link_oficial": "",
+    "nivel_preferencia": 0
+  }
+},
+{
+  "model": "portfolio.tecnologia",
+  "pk": 255,
+  "fields": {
+    "nome": "Pandas",
+    "tipo": "",
+    "descricao": "",
+    "logo": "",
+    "link_oficial": "",
+    "nivel_preferencia": 0
+  }
+},
+{
+  "model": "portfolio.tecnologia",
+  "pk": 256,
+  "fields": {
+    "nome": "HTTP Webservices",
+    "tipo": "",
+    "descricao": "",
+    "logo": "",
+    "link_oficial": "",
+    "nivel_preferencia": 0
+  }
+},
+{
+  "model": "portfolio.tecnologia",
+  "pk": 257,
+  "fields": {
+    "nome": "Spring Boot (Java)",
+    "tipo": "",
+    "descricao": "",
+    "logo": "",
+    "link_oficial": "",
+    "nivel_preferencia": 0
+  }
+},
+{
+  "model": "portfolio.tecnologia",
+  "pk": 258,
+  "fields": {
+    "nome": "Kotlin",
+    "tipo": "",
+    "descricao": "",
+    "logo": "",
+    "link_oficial": "",
+    "nivel_preferencia": 0
+  }
+},
+{
+  "model": "portfolio.tecnologia",
+  "pk": 259,
+  "fields": {
+    "nome": "Git",
+    "tipo": "",
+    "descricao": "",
+    "logo": "",
+    "link_oficial": "",
+    "nivel_preferencia": 0
+  }
+},
+{
+  "model": "portfolio.tecnologia",
+  "pk": 260,
+  "fields": {
+    "nome": "H2",
+    "tipo": "",
+    "descricao": "",
+    "logo": "",
+    "link_oficial": "",
+    "nivel_preferencia": 0
+  }
+},
+{
+  "model": "portfolio.tecnologia",
+  "pk": 261,
+  "fields": {
+    "nome": "Jira",
+    "tipo": "",
+    "descricao": "",
+    "logo": "",
+    "link_oficial": "",
+    "nivel_preferencia": 0
+  }
+},
+{
+  "model": "portfolio.tecnologia",
+  "pk": 262,
+  "fields": {
+    "nome": "LLM",
+    "tipo": "",
+    "descricao": "",
+    "logo": "",
+    "link_oficial": "",
+    "nivel_preferencia": 0
+  }
+},
+{
+  "model": "portfolio.tecnologia",
+  "pk": 263,
+  "fields": {
+    "nome": "MySQL",
+    "tipo": "",
+    "descricao": "",
+    "logo": "",
+    "link_oficial": "",
+    "nivel_preferencia": 0
+  }
+},
+{
+  "model": "portfolio.tecnologia",
+  "pk": 264,
+  "fields": {
+    "nome": "Ollama",
+    "tipo": "",
+    "descricao": "",
+    "logo": "",
+    "link_oficial": "",
+    "nivel_preferencia": 0
+  }
+},
+{
+  "model": "portfolio.tecnologia",
+  "pk": 265,
+  "fields": {
+    "nome": "Selenium",
+    "tipo": "",
+    "descricao": "",
+    "logo": "",
+    "link_oficial": "",
+    "nivel_preferencia": 0
+  }
+},
+{
+  "model": "portfolio.tecnologia",
+  "pk": 266,
+  "fields": {
+    "nome": "ThymeLeaf",
+    "tipo": "",
+    "descricao": "",
+    "logo": "",
+    "link_oficial": "",
+    "nivel_preferencia": 0
+  }
+},
+{
+  "model": "portfolio.tecnologia",
+  "pk": 267,
+  "fields": {
+    "nome": "RPA",
+    "tipo": "",
+    "descricao": "",
+    "logo": "",
+    "link_oficial": "",
+    "nivel_preferencia": 0
+  }
+},
+{
+  "model": "portfolio.tecnologia",
+  "pk": 268,
+  "fields": {
+    "nome": "PowerBI",
+    "tipo": "",
+    "descricao": "",
+    "logo": "",
+    "link_oficial": "",
+    "nivel_preferencia": 0
+  }
+},
+{
+  "model": "portfolio.tecnologia",
+  "pk": 269,
+  "fields": {
+    "nome": "Google Charts",
+    "tipo": "",
+    "descricao": "",
+    "logo": "",
+    "link_oficial": "",
+    "nivel_preferencia": 0
+  }
+},
+{
+  "model": "portfolio.tecnologia",
+  "pk": 270,
+  "fields": {
+    "nome": "AJAX",
+    "tipo": "",
+    "descricao": "",
+    "logo": "",
+    "link_oficial": "",
+    "nivel_preferencia": 0
+  }
+},
+{
+  "model": "portfolio.tecnologia",
+  "pk": 271,
+  "fields": {
+    "nome": "PHP",
+    "tipo": "",
+    "descricao": "",
+    "logo": "",
+    "link_oficial": "",
+    "nivel_preferencia": 0
+  }
+},
+{
+  "model": "portfolio.tecnologia",
+  "pk": 272,
+  "fields": {
+    "nome": "XAMPP",
+    "tipo": "",
+    "descricao": "",
+    "logo": "",
+    "link_oficial": "",
+    "nivel_preferencia": 0
+  }
+},
+{
+  "model": "portfolio.tecnologia",
+  "pk": 273,
+  "fields": {
+    "nome": "Bases de Dados",
+    "tipo": "",
+    "descricao": "",
+    "logo": "",
+    "link_oficial": "",
+    "nivel_preferencia": 0
+  }
+},
+{
+  "model": "portfolio.tecnologia",
+  "pk": 274,
+  "fields": {
+    "nome": "MariaDB",
+    "tipo": "",
+    "descricao": "",
+    "logo": "",
+    "link_oficial": "",
+    "nivel_preferencia": 0
+  }
+},
+{
+  "model": "portfolio.tecnologia",
+  "pk": 275,
+  "fields": {
+    "nome": "Postman",
+    "tipo": "",
+    "descricao": "",
+    "logo": "",
+    "link_oficial": "",
+    "nivel_preferencia": 0
+  }
+},
+{
+  "model": "portfolio.tecnologia",
+  "pk": 276,
+  "fields": {
+    "nome": "WordPress",
+    "tipo": "",
+    "descricao": "",
+    "logo": "",
+    "link_oficial": "",
+    "nivel_preferencia": 0
+  }
+},
+{
+  "model": "portfolio.tecnologia",
+  "pk": 277,
+  "fields": {
+    "nome": "PyTorch",
+    "tipo": "",
+    "descricao": "",
+    "logo": "",
+    "link_oficial": "",
+    "nivel_preferencia": 0
+  }
+},
+{
+  "model": "portfolio.tecnologia",
+  "pk": 278,
+  "fields": {
+    "nome": "React",
+    "tipo": "",
+    "descricao": "",
+    "logo": "",
+    "link_oficial": "",
+    "nivel_preferencia": 0
+  }
+},
+{
+  "model": "portfolio.tecnologia",
+  "pk": 279,
+  "fields": {
+    "nome": "PostGreSQL",
+    "tipo": "",
+    "descricao": "",
+    "logo": "",
+    "link_oficial": "",
+    "nivel_preferencia": 0
+  }
+},
+{
+  "model": "portfolio.tecnologia",
+  "pk": 280,
+  "fields": {
+    "nome": "WebAPI",
+    "tipo": "",
+    "descricao": "",
+    "logo": "",
+    "link_oficial": "",
+    "nivel_preferencia": 0
+  }
+},
+{
+  "model": "portfolio.tecnologia",
+  "pk": 281,
+  "fields": {
+    "nome": "Angular",
+    "tipo": "",
+    "descricao": "",
+    "logo": "",
+    "link_oficial": "",
+    "nivel_preferencia": 0
+  }
+},
+{
+  "model": "portfolio.tecnologia",
+  "pk": 282,
+  "fields": {
+    "nome": "Seaborn",
+    "tipo": "",
+    "descricao": "",
+    "logo": "",
+    "link_oficial": "",
+    "nivel_preferencia": 0
+  }
+},
+{
+  "model": "portfolio.tecnologia",
+  "pk": 283,
+  "fields": {
+    "nome": "Azure",
+    "tipo": "",
+    "descricao": "",
+    "logo": "",
+    "link_oficial": "",
+    "nivel_preferencia": 0
+  }
+},
+{
+  "model": "portfolio.tecnologia",
+  "pk": 284,
+  "fields": {
+    "nome": "Arduino",
+    "tipo": "",
+    "descricao": "",
+    "logo": "",
+    "link_oficial": "",
+    "nivel_preferencia": 0
+  }
+},
+{
+  "model": "portfolio.tecnologia",
+  "pk": 285,
+  "fields": {
+    "nome": "Stripe",
+    "tipo": "",
+    "descricao": "",
+    "logo": "",
+    "link_oficial": "",
+    "nivel_preferencia": 0
+  }
+},
+{
+  "model": "portfolio.tecnologia",
+  "pk": 286,
+  "fields": {
+    "nome": "C",
+    "tipo": "",
+    "descricao": "",
+    "logo": "",
+    "link_oficial": "",
+    "nivel_preferencia": 0
+  }
+},
+{
+  "model": "portfolio.tecnologia",
+  "pk": 287,
+  "fields": {
+    "nome": "MVC",
+    "tipo": "",
+    "descricao": "",
+    "logo": "",
+    "link_oficial": "",
+    "nivel_preferencia": 0
+  }
+},
+{
+  "model": "portfolio.tecnologia",
+  "pk": 288,
+  "fields": {
+    "nome": "OpenAI",
+    "tipo": "",
+    "descricao": "",
+    "logo": "",
+    "link_oficial": "",
+    "nivel_preferencia": 0
+  }
+},
+{
+  "model": "portfolio.tecnologia",
+  "pk": 289,
+  "fields": {
+    "nome": "Ubuntu Server",
+    "tipo": "",
+    "descricao": "",
+    "logo": "",
+    "link_oficial": "",
+    "nivel_preferencia": 0
+  }
+},
+{
+  "model": "portfolio.tecnologia",
+  "pk": 290,
+  "fields": {
+    "nome": "Web",
+    "tipo": "",
+    "descricao": "",
+    "logo": "",
+    "link_oficial": "",
+    "nivel_preferencia": 0
+  }
+},
+{
+  "model": "portfolio.tecnologia",
+  "pk": 291,
+  "fields": {
+    "nome": "Flask",
+    "tipo": "",
+    "descricao": "",
+    "logo": "",
+    "link_oficial": "",
+    "nivel_preferencia": 0
+  }
+},
+{
+  "model": "portfolio.tecnologia",
+  "pk": 292,
+  "fields": {
+    "nome": "SQLite",
+    "tipo": "",
+    "descricao": "",
+    "logo": "",
+    "link_oficial": "",
+    "nivel_preferencia": 0
+  }
+},
+{
+  "model": "portfolio.tecnologia",
+  "pk": 293,
+  "fields": {
+    "nome": "ExploitdB",
+    "tipo": "",
+    "descricao": "",
+    "logo": "",
+    "link_oficial": "",
+    "nivel_preferencia": 0
+  }
+},
+{
+  "model": "portfolio.tecnologia",
+  "pk": 294,
+  "fields": {
+    "nome": "Misp",
+    "tipo": "",
+    "descricao": "",
+    "logo": "",
+    "link_oficial": "",
+    "nivel_preferencia": 0
+  }
+},
+{
+  "model": "portfolio.tecnologia",
+  "pk": 295,
+  "fields": {
+    "nome": "OpenCTI",
+    "tipo": "",
+    "descricao": "",
+    "logo": "",
+    "link_oficial": "",
+    "nivel_preferencia": 0
+  }
+},
+{
+  "model": "portfolio.tecnologia",
+  "pk": 296,
+  "fields": {
+    "nome": "Shodan",
+    "tipo": "",
+    "descricao": "",
+    "logo": "",
+    "link_oficial": "",
+    "nivel_preferencia": 0
+  }
+},
+{
+  "model": "portfolio.tecnologia",
+  "pk": 297,
+  "fields": {
+    "nome": "Excel",
+    "tipo": "",
+    "descricao": "",
+    "logo": "",
+    "link_oficial": "",
+    "nivel_preferencia": 0
+  }
+},
+{
+  "model": "portfolio.tecnologia",
+  "pk": 298,
+  "fields": {
+    "nome": "InfluxDB",
+    "tipo": "",
+    "descricao": "",
+    "logo": "",
+    "link_oficial": "",
+    "nivel_preferencia": 0
+  }
+},
+{
+  "model": "portfolio.tecnologia",
+  "pk": 299,
+  "fields": {
+    "nome": "Next.js",
+    "tipo": "",
+    "descricao": "",
+    "logo": "",
+    "link_oficial": "",
+    "nivel_preferencia": 0
+  }
+},
+{
+  "model": "portfolio.tecnologia",
+  "pk": 300,
+  "fields": {
+    "nome": "Tailwind CSS",
+    "tipo": "",
+    "descricao": "",
+    "logo": "",
+    "link_oficial": "",
+    "nivel_preferencia": 0
+  }
+},
+{
+  "model": "portfolio.tecnologia",
+  "pk": 301,
+  "fields": {
+    "nome": "Typescript ",
+    "tipo": "",
+    "descricao": "",
+    "logo": "",
+    "link_oficial": "",
+    "nivel_preferencia": 0
+  }
+},
+{
+  "model": "portfolio.tecnologia",
+  "pk": 302,
+  "fields": {
+    "nome": "Microsoft Visual Studio",
+    "tipo": "",
+    "descricao": "",
+    "logo": "",
+    "link_oficial": "",
+    "nivel_preferencia": 0
+  }
+},
+{
+  "model": "portfolio.tecnologia",
+  "pk": 303,
+  "fields": {
+    "nome": "Odoo",
+    "tipo": "",
+    "descricao": "",
+    "logo": "",
+    "link_oficial": "",
+    "nivel_preferencia": 0
+  }
+},
+{
+  "model": "portfolio.tecnologia",
+  "pk": 304,
+  "fields": {
+    "nome": "PostgreSQL",
+    "tipo": "",
+    "descricao": "",
+    "logo": "",
+    "link_oficial": "",
+    "nivel_preferencia": 0
+  }
+},
+{
+  "model": "portfolio.tecnologia",
+  "pk": 305,
+  "fields": {
+    "nome": "Ionic Framework",
+    "tipo": "",
+    "descricao": "",
+    "logo": "",
+    "link_oficial": "",
+    "nivel_preferencia": 0
+  }
+},
+{
+  "model": "portfolio.tecnologia",
+  "pk": 306,
+  "fields": {
+    "nome": "React.js",
+    "tipo": "",
+    "descricao": "",
+    "logo": "",
+    "link_oficial": "",
+    "nivel_preferencia": 0
+  }
+},
+{
+  "model": "portfolio.tecnologia",
+  "pk": 307,
+  "fields": {
+    "nome": "Android",
+    "tipo": "",
+    "descricao": "",
+    "logo": "",
+    "link_oficial": "",
+    "nivel_preferencia": 0
+  }
+},
+{
+  "model": "portfolio.tecnologia",
+  "pk": 308,
+  "fields": {
+    "nome": "iOS",
+    "tipo": "",
+    "descricao": "",
+    "logo": "",
+    "link_oficial": "",
+    "nivel_preferencia": 0
+  }
+},
+{
+  "model": "portfolio.competencia",
+  "pk": 1,
+  "fields": {
+    "nome": "Programação em Python",
+    "tipo": "Técnica",
+    "nivel": "Intermédio",
+    "descricao": "Desenvolvimento de aplicações utilizando Python, incluindo lógica de programação e manipulação de dados."
+  }
+},
+{
+  "model": "portfolio.competencia",
+  "pk": 2,
+  "fields": {
+    "nome": "Django",
+    "tipo": "Técnica",
+    "nivel": "Intermédio",
+    "descricao": "Desenvolvimento de aplicações web com o framework Django, incluindo models, views e templates."
+  }
+},
+{
+  "model": "portfolio.competencia",
+  "pk": 3,
+  "fields": {
+    "nome": "Autonomia",
+    "tipo": "Pessoal",
+    "nivel": "Pessoal",
+    "descricao": "Capacidade de trabalhar de forma independente e gerir tarefas."
+  }
+},
+{
+  "model": "portfolio.competencia",
+  "pk": 4,
+  "fields": {
+    "nome": "Resolução de Problemas",
+    "tipo": "Pessoal",
+    "nivel": "Bom",
+    "descricao": "Capacidade de analisar problemas e encontrar soluções eficazes."
+  }
+},
+{
+  "model": "portfolio.projeto",
+  "pk": 3,
+  "fields": {
+    "titulo": "Portfólio Académico em Django",
+    "ano": 2,
+    "descricao": "vc vbbc",
+    "imagem": "",
+    "conceitos_aplicados": "fvfgtvb",
+    "github_link": "https://github.com/a22403096MartaSilva/Ficha6",
+    "video_demo": null,
+    "unidade_curricular": 1,
+    "tecnologias": [
+      236,
+      249,
+      250,
+      251
+    ],
+    "competencias": [
+      1,
+      2,
+      3,
+      4
+    ]
+  }
+},
+{
+  "model": "portfolio.tfc",
+  "pk": 670,
+  "fields": {
+    "titulo": "Abordagens não supervisionadas para deteção de reviews falsas em plataformas de e-commerce",
+    "autor": "Nuno Santinhos",
+    "orientador": "Sofia Fernandes",
+    "curso": "Licenciatura em Ciência de Dados.  2025",
+    "ano": 2025,
+    "resumo": "O crescimento do e-commerce trouxe um aumento significativo nas avaliações, que desempenham um papel determinante nas decisões de compra dos consumidores. Contudo, o fenómeno das fake reviews compromete a confiança nas plataformas digitais, prejudicando tanto os consumidores como as empresas. Este trabalho propõe a aplicação de técnicas de aprendizagem automatizada, como o algoritmo K-Means, e de modelos avançados baseados em redes neuronais, com o objetivo de identificar padrões associados a avaliações falsas. Recorrendo a um conjunto de dados da Amazon, recolhido entre 1996 e 2023, serão analisadas métricas comportamentais e linguísticas que possibilitam a distinção entre avaliações genuínas e falsas. Este estudo sublinha a relevância de métodos inovadores e integrados para enfrentar os desafios da manipulação de avaliações, promovendo um ambiente de comércio digital mais mais transparente e fiável.",
+    "classificacao": 3,
+    "tecnologias": [
+      236,
+      237
+    ]
+  }
+},
+{
+  "model": "portfolio.tfc",
+  "pk": 671,
+  "fields": {
+    "titulo": "AdvenTour",
+    "autor": "Gonçalo Neves, Lucas Botelho",
+    "orientador": "José Cascais Brás",
+    "curso": "Licenciatura em Engenharia Informática.  2025",
+    "ano": 2025,
+    "resumo": "Este trabalho propõe o desenvolvimento da aplicação mobile AdvenTour, focada no turismo de aventura, um segmento que tem registado um crescimento notável nos últimos anos. De acordo com relatórios da Organização Mundial do Turismo, cerca de 40% dos turistas globais procuram experiências autênticas e emocionantes, enquanto o mercado de turismo de aventura cresce a uma taxa anual aproximada de 10%. A AdvenTour visa ser uma plataforma centralizada para que os turistas planeiem e encontrem informações sobre aventuras radicais, oferecendo uma interface simples e intuitiva para explorar e partilhar atividades emocionantes. Adicionalmente, a AdvenTour fomenta uma comunidade global de aventureiros, permitindo avaliações de utilizadores, interação direta entre membros e criação de itinerários personalizáveis. Este TFC concentra-se na conceção e desenvolvimento de funcionalidades que ajudam os utilizadores a navegar por experiências em diferentes países, fornecer feedback e planear itinerários de forma prática e eficiente. Ao centralizar dados, facilitar o planeamento de viagens e conectar aventureiros, a AdvenTour resolve o problema real da dispersão de informações no turismo de aventura, simplificando o processo para viajantes que procuram experiências fora do comum e contribuindo para o crescimento sustentável do setor, promovendo atividades de aventura que respeitem o meio ambiente e as culturas locais. Pode ajudar a reduzir a sobrecarga dos destinos turísticos populares permitindo que as comunidades locais fora dos grandes centros turísticos beneficiem economicamente, promovendo uma distribuição mais equitativa dos lucros gerados pelo turismo de aventura.",
+    "classificacao": 3,
+    "tecnologias": [
+      238,
+      239,
+      240,
+      241,
+      242,
+      243,
+      244,
+      245,
+      246
+    ]
+  }
+},
+{
+  "model": "portfolio.tfc",
+  "pk": 672,
+  "fields": {
+    "titulo": "Aplicativo para gestão de voluntários e auxilio de associações de animais",
+    "autor": "Cátia Coelho",
+    "orientador": "Bruno Cipriano, Rodrigo Correia",
+    "curso": "Licenciatura em Informática de Gestão.  2025",
+    "ano": 2025,
+    "resumo": "Este projeto consiste no desenvolvimento de uma aplicação móvel, que posteriormente será convertida para uma plataforma web. A ideia central da aplicação é criar uma plataforma que facilite e incentive o envolvimento das pessoas com os animais das associações de proteção animal, promovendo uma maior interação e visibilidade tanto para os animais quanto para as instituições. A aplicação permitirá que as associações criem perfis onde poderão apresentar informações sobre si mesmas e individualmente sobre os seus animais disponíveis para interação. Os utilizadores, por sua vez, poderão criar um perfil e ter acesso aos animais, com a possibilidade de agendar diretamente atividades, como passeios com cães. Para garantir a segurança e o bem-estar dos animais, será necessário que os utilizadores aceitem e cumpram os termos de responsabilidade apresentados na aplicação, previamente estabelecidos pelas associações. Esta ferramenta visa eliminar barreiras comuns ao voluntariado, como a dificuldade de contacto telefónico ou a necessidade de deslocação sem garantia de disponibilidade. Através da aplicação, as associações receberão notificações de pedidos e comprometer-se-ão a responder dentro de um prazo razoável, mantendo o processo organizado e ágil. Os utilizadores também terão informações claras sobre o estado dos seus pedidos. Além de melhorar a logística e o acesso ao voluntariado, a aplicação promove uma maior socialização dos animais, ajudando-os a interagir com um maior número de pessoas. Este contacto regular com novos rostos pode ser especialmente benéfico para animais que passaram por situações de abandono ou maus-tratos, ajudando-os a recuperar a confiança nos humanos. Por fim, a aplicação coloca sempre o bem-estar dos animais em primeiro lugar, permitindo que cada associação decida o que é melhor para os seus protegidos, respeitando as suas particularidades. O objetivo final é simplificar o processo de envolvimento das pessoas com esta causa e fortalecer a relação entre a comunidade e as associações, contribuindo para o bem-estar dos animais e o aumento das iniciativas de apoio, voluntariado e adoção.",
+    "classificacao": 5,
+    "tecnologias": [
+      240,
+      243,
+      247
+    ]
+  }
+},
+{
+  "model": "portfolio.tfc",
+  "pk": 673,
+  "fields": {
+    "titulo": "Aplicação Móvel de Audiolivros Infantis",
+    "autor": "Tomás Silva, Carlota Montalvão",
+    "orientador": "Lúcio Studer, Martim Mourão",
+    "curso": "Licenciatura em Engenharia Informática. Licenciatura em Informática de Gestão.  2025",
+    "ano": 2025,
+    "resumo": "Este TFC consiste no desenvolvimento e implementação de uma aplicação móvel destinada a disponibilizar audiolivros infantis, bem como a permitir a gravação de audiolivros ou até mesmo histórias imaginadas pelos pais. A oportunidade de criar esta aplicação surgiu em colaboração com a Associação Nacional de Glaucoma Pediátrico, que visa em apoiar as crianças com esta condição. A aplicação tem como objetivo beneficiar não só estas crianças, como também os seus familiares, oferecendo uma plataforma comunitária onde estes possam gravar audiolivros e partilhá-los numa biblioteca acessível através da mesma aplicação. O projeto abrange todo o ciclo de desenvolvimento de software, desde a conceção inicial até à sua implementação e aos testes finais. Um dos principais focos é garantir uma interface intuitiva e acessível para todos os futuros utilizadores. Com o desenvolvimento desta aplicação, esperamos proporcionar momentos significativos em família, realizados por todos para todos e, acima de tudo, contribuir para a inclusão social e educativa destas crianças.",
+    "classificacao": 3,
+    "tecnologias": [
+      236,
+      248,
+      249,
+      250,
+      251,
+      252
+    ]
+  }
+},
+{
+  "model": "portfolio.tfc",
+  "pk": 674,
+  "fields": {
+    "titulo": "Aplicação de controlo de assiduidade c/ terminal de picagem",
+    "autor": "Daniel Martins",
+    "orientador": "Rodrigo Correia",
+    "curso": "Licenciatura em Engenharia Informática.  2025",
+    "ano": 2025,
+    "resumo": "Aplicação web para efetuar o registo de assiduidade e submissão de documentos (justificação de falta, permuta de turno, atestados) + terminal físico para realização de picagem (\"pica-ponto\").",
+    "classificacao": 3,
+    "tecnologias": [
+      236
+    ]
+  }
+},
+{
+  "model": "portfolio.tfc",
+  "pk": 675,
+  "fields": {
+    "titulo": "Aplicação de técnicas de análise de dados para deteção de fugas e roturas em sistemas de distribuição de água",
+    "autor": "Wilson Silva",
+    "orientador": "Maria Silva",
+    "curso": "Licenciatura em Engenharia Informática.  2025",
+    "ano": 2025,
+    "resumo": "A criação de zonas de medição e controlo em sistemas de distribuição de água é fundamental para uma gestão adequada e controlo de perdas de água. A monitorização de caudal é um passo essencial para deteção e controlo célere de perdas reais (fugas, roturas em condutas…). Este trabalho pretende explorar métodos estatísticos e de análise de dados para deteção e quantificação de fugas e roturas utilizando séries temporais de caudal medido reais. Trabalho coorientado pela Eng. Dália Loureiro (LNEC).",
+    "classificacao": 3,
+    "tecnologias": [
+      236,
+      253,
+      254,
+      255
+    ]
+  }
+},
+{
+  "model": "portfolio.tfc",
+  "pk": 676,
+  "fields": {
+    "titulo": "Aplicação móvel para rastreio da hepatite C",
+    "autor": "Miguel Santos, Ana Salvador",
+    "orientador": "Pedro Alves",
+    "curso": "Licenciatura em Engenharia Informática.  2025",
+    "ano": 2025,
+    "resumo": "Conceção e desenvolvimento de uma aplicação móvel em colaboração com a Associação Ares do Pinhal, uma instituição com vasta experiência no apoio a pessoas com dependências. A aplicação tem como objetivo melhorar a monitorização e a adesão ao tratamento da hepatite C, especialmente para utentes com historial de toxicodependência. Focada na recolha e gestão eficiente de dados, a solução proposta visa apoiar os profissionais de saúde na prestação de cuidados mais precisos e personalizados, ao mesmo tempo que se prepara para ser adaptável a outras patologias.",
+    "classificacao": 3,
+    "tecnologias": [
+      243,
+      256,
+      257
+    ]
+  }
+},
+{
+  "model": "portfolio.tfc",
+  "pk": 677,
+  "fields": {
+    "titulo": "Aplicação móvel para recomendação de carruagens de comboios e metros com base em informação de ocupação",
+    "autor": "Susana Wang",
+    "orientador": "Bruno Cipriano, Rodrigo Correia",
+    "curso": "Licenciatura em Engenharia Informática.  2025",
+    "ano": 2025,
+    "resumo": "Este projeto consiste no desenvolvimento de uma aplicação relacionada com o sistema de comboios que recomenda ao utilizador uma carruagem do comboio com a menor percentagem de lotação de pessoas, promovendo uma distribuição mais equilibrada dos passageiros ao longo do comboio e com o objetivo de melhorar a experiência de mobilidade dos passageiros. Além disso, a aplicação sugere opções de comboios disponíveis com base na origem e no destino indicados pelo utilizador, permitindo um planeamento de viagem mais eficiente e personalizado.",
+    "classificacao": 3,
+    "tecnologias": [
+      240,
+      243,
+      247
+    ]
+  }
+},
+{
+  "model": "portfolio.tfc",
+  "pk": 678,
+  "fields": {
+    "titulo": "Aplicação móvel para registo e acompanhamento de queixas de mobilidade urbana",
+    "autor": "Rui Ferreira",
+    "orientador": "Pedro Alves",
+    "curso": "Licenciatura em Engenharia Informática.  2025",
+    "ano": 2025,
+    "resumo": "O QueixaAqui é uma aplicação móvel focada no registo e encaminhamento de queixas relacionadas com mobilidade e proteção do ambiente. A plataforma permite que os utilizadores denunciem problemas, anexem fotos e forneçam informações detalhadas sobre as ocorrências. A aplicação conta com uma funcionalidade de geolocalização, capturando automaticamente a morada da queixa, permitindo edição manual se necessário. Além disso, há uma dashboard web para a equipa da associação ZERO, onde as queixas são analisadas, categorizadas e acompanhadas através de estatísticas interativas e gráficos detalhados. Os principais tópicos da aplicação incluem: – Mobilidade (Transportes Públicos, Infraestruturas Rodoviárias e Ferroviárias, Mobilidade Ativa) – Proteção do Ambiente (como eixo complementar) A implementação técnica inclui um backend em Kotlin/Spring Boot e um frontend desenvolvido em Flutter para garantir compatibilidade com Android e iOS. O projeto também integra um sistema de envio e armazenamento de fotos, organizando-as em diretórios específicos no servidor. A proposta visa facilitar o contacto entre cidadãos e entidades responsáveis, promovendo transparência, participação cívica e melhorias urbanas.",
+    "classificacao": 3,
+    "tecnologias": [
+      240,
+      243,
+      257,
+      258
+    ]
+  }
+},
+{
+  "model": "portfolio.tfc",
+  "pk": 679,
+  "fields": {
+    "titulo": "Aplicação para identificação de competências de diretores e alunos da Univ. Lusófona",
+    "autor": "Miguel Melo, Rodrigo Dias",
+    "orientador": "Bruno Saraiva, Pedro Alves",
+    "curso": "Licenciatura em Engenharia Informática.  2025",
+    "ano": 2025,
+    "resumo": "O docente Carlos Rouco juntamente com as mestrandas Paula Cipriano e Elisabete Cipriano propuseram ao Departamento de Recursos Humanos da Universidade o desenvolvimento de uma aplicaçãoweb no âmbito das teses demestrado que fizeram sobre as competências dos alunos e as competências de liderança nas áreas de chefia intermédia. Esta aplicação tem como principal objetivo auxiliar na recolha de respostas e a automatização da análise dessas competências. A aplicação será desenvolvida utilizando Kotlin e Spring, com uma base de dados em MySQL. O sistema utilizará a autenticação da Universidade Lusófona, diminuindo a dificuldade de implementação e garantindo a utilização reservada a utilizadores registados na Universidade. A solução baseia-se em três modos principais de utilização: • Modo de Aluno: permite o preenchimento de formulários com questões de escolha múltipla e a visualização do progresso nas avaliações feitas. • Modo de Colaborador (Chefias Intermédias): permite o preenchimento de formulários com respostas abertas onde as competências serão analisadas através de técnicas de Processamento de Linguagem Natural (NLP). • Modo de Recursos Humanos (RH): oferece funcionalidades para visualizar resultados médios, tanto de alunos como de colaboradores, e exportar os dados para investigações futuras. Com este projeto, pretende-se proporcionar uma ferramenta prática e eficiente para recolher e analisar os dados. A aplicação proporciona uma maneira prática de visualização do progresso dos alunos e colaboradores. Também abre as portas ao Departamento de Recursos Humanos para possíveis melhorias dentro da instituição e dos seus serviços.",
+    "classificacao": 5,
+    "tecnologias": [
+      236,
+      248,
+      257,
+      258,
+      259,
+      260,
+      261,
+      262,
+      263,
+      264,
+      265,
+      266
+    ]
+  }
+},
+{
+  "model": "portfolio.tfc",
+  "pk": 680,
+  "fields": {
+    "titulo": "Aplicações móveis para reabilitação",
+    "autor": "Mariana Livramento",
+    "orientador": "Pedro Alves, Sofia Naique",
+    "curso": "Licenciatura em Engenharia Informática.  2025",
+    "ano": 2025,
+    "resumo": "O Centro de Medicina de Reabilitação de Alcoitão é o mais importante centro de reabilitação da península ibérica. Este Trabalho de Fim de Curso (TFC) tem como objetivo dar continuidade ao desenvolvimento de 2 aplicações móveis: o Rehabilita (para treino de reabilitação motora) e o Rexiga (para treino de bexiga neurogénica). Ambas as aplicações estão desenvolvidas em Flutter, uma tecnologia que permite a criação de soluções multiplataforma para Android e iOS). Estas comunicam via Web Services com o servidor (Spring Boot/Kotlin). As aplicações apresentam dois perfis distintos, sendo que, dependendo das credenciais inseridas, os utilizadores são direcionados para o perfil que se adequa às suas necessidades e funções.",
+    "classificacao": 3,
+    "tecnologias": [
+      243,
+      258
+    ]
+  }
+},
+{
+  "model": "portfolio.tfc",
+  "pk": 681,
+  "fields": {
+    "titulo": "Auto Mecom Website ( Oficina de Reparação de Automóveis )",
+    "autor": "Beatriz Neves",
+    "orientador": "Rui Santos",
+    "curso": "Licenciatura em Engenharia Informática.  2025",
+    "ano": 2025,
+    "resumo": "Este trabalho final de curso tem como propósito a melhoria do website da oficina Auto Mecom, iniciado no ano anterior, de forma que seja possível otimizar a experiência do utilizador e expandir algumas funcionalidades necessárias para o bom funcionamento do website. Apesar do trabalho anterior ter iniciado a digitalização da oficina em questão, ainda existem algumas funcionalidades por implementar, funcionalidades essas que irão permitir que finalmente o website seja lançado de forma a poder ser utilizado.",
+    "classificacao": 4,
+    "tecnologias": [
+      249,
+      250,
+      251,
+      252
+    ]
+  }
+},
+{
+  "model": "portfolio.tfc",
+  "pk": 682,
+  "fields": {
+    "titulo": "Cibersegurança associada aos RPA",
+    "autor": "Rafael Silva, Henrique Franco",
+    "orientador": "José Cascais Brás",
+    "curso": "Licenciatura em Engenharia Informática.  2025",
+    "ano": 2025,
+    "resumo": "A proposta do trabalho é utilizar a automação de processos (RPA) para detectar as ultimas vulnerabilidades dos sistemas organizacionais reportadas, obter os patch de segurança, submeter para atualização dos sistemas e adicionalmente efetuar a automação da detecção de Acessos Não Autorizados e consequente resposta a ameaças.",
+    "classificacao": 5,
+    "tecnologias": [
+      236,
+      267
+    ]
+  }
+},
+{
+  "model": "portfolio.tfc",
+  "pk": 683,
+  "fields": {
+    "titulo": "Classificação de Pacientes e Previsão de Tempos de Espera para Centro Hospitalar através de modelos Machine Learning",
+    "autor": "Ana Toscano",
+    "orientador": "Iolanda Velho, Sofia Naique",
+    "curso": "Este trabalho é desenvolvido no âmbito da unidade curricular Trabalho Final de Curso (TFC) da Licenciatura de Ciência de Dados. A Engenheira Mariana Matos, Diretora da Unidade de Gestão de Doentes do Centro de Medicina de Reabilitação de Alcoitão (CMRA), Santa Casa da Misericórdia de Lisboa, entrou em contato com a Professora Iolanda Velho, propondo a cooperação científica na base deste TFC. O CMRA dedica-se à reabilitação de pessoas portadoras de deficiência de predomínio físico ou multideficiência congénita, de todas as idades. No ano de 2020 recebeu 665 utentes tratados em internamento, além de ter realizado 72 859 atos terapêuticos em ambulatório. Dada a amplitude do atendimento realizado pelo CMRA e a sua procura pela excelência em reabilitação, a instituição aposta no desenvolvimento tecnológico dos seus processos. Através da utilização de técnicas de Machine Learning para apoiar a gestão hospitalar, este projeto tem como objetivos: • realizar a análise de dados, cedidos pelo CMRA • desenvolver um modelo preditivo, que permita antecipar o tempo de espera de doentes que chegam ao CMRA, para internamento, ou ambulatório • no âmbito deste modelo preditivo, caracterizar o referido tempo de espera, em função da sua patologia, e área clínica do CMRA a que se refere.",
+    "ano": 2025,
+    "resumo": "Este trabalho é desenvolvido no âmbito da unidade curricular Trabalho Final de Curso (TFC) da Licenciatura de Ciência de Dados. A Engenheira Mariana Matos, Diretora da Unidade de Gestão de Doentes do Centro de Medicina de Reabilitação de Alcoitão (CMRA), Santa Casa da Misericórdia de Lisboa, entrou em contato com a Professora Iolanda Velho, propondo a cooperação científica na base deste TFC. O CMRA dedica-se à reabilitação de pessoas portadoras de deficiência de predomínio físico ou multideficiência congénita, de todas as idades. No ano de 2020 recebeu 665 utentes tratados em internamento, além de ter realizado 72 859 atos terapêuticos em ambulatório. Dada a amplitude do atendimento realizado pelo CMRA e a sua procura pela excelência em reabilitação, a instituição aposta no desenvolvimento tecnológico dos seus processos. Através da utilização de técnicas de Machine Learning para apoiar a gestão hospitalar, este projeto tem como objetivos: • realizar a análise de dados, cedidos pelo CMRA • desenvolver um modelo preditivo, que permita antecipar o tempo de espera de doentes que chegam ao CMRA, para internamento, ou ambulatório • no âmbito deste modelo preditivo, caracterizar o referido tempo de espera, em função da sua patologia, e área clínica do CMRA a que se refere.",
+    "classificacao": 3,
+    "tecnologias": [
+      236,
+      253,
+      254,
+      255,
+      268
+    ]
+  }
+},
+{
+  "model": "portfolio.tfc",
+  "pk": 684,
+  "fields": {
+    "titulo": "Classificação do estado de funcionamento de uma eólica offshore recorrendo  a AI",
+    "autor": "Tiago Castro Mota",
+    "orientador": "Daniel Fernandes, João Pedro Carvalho",
+    "curso": "Licenciatura em Engenharia Informática.  2025",
+    "ano": 2025,
+    "resumo": "Nos últimos anos, a Europa aumentou significativamente os seus investimentos em en- ergias renováveis, impulsionada pela necessidade de reduzir a dependência de com- bustíveis fósseis, cumprir as metas climáticas e reforçar a resiliência energética. Com os mercados globais de energia a enfrentar volatilidade, fontes de energia renovável como a eólica e a solar desempenham um papel crucial na garantia de um futuro en- ergético sustentável e independente para o continente. Os parques eólicos offshore, em particular, tornaram-se um pilar da estratégia europeia para as energias renováveis, ofer- ecendo um enorme potencial devido aos vastos recursos de vento disponíveis ao longo das suas costas. Projetos como o WindFloat Atlantic, localizado ao largo da costa de Viana do Castelo, em Portugal, são exemplos desta transição, demonstrando a cres- cente importância da energia eólica offshore no mix energético europeu. Um aspeto crucial para maximizar a eficiência e a sustentabilidade destes projetos renováveis é garantir a operação fiável das turbinas eólicas offshore. Práticas eficientes de operação e manutenção (O&M) são essenciais para prevenir paragens das turbinas, reduzir custos operacionais e otimizar a produção de energia. Contudo, devido ao ambi- ente remoto e adverso onde estas instalações estão localizadas, monitorizar e prever o estado de funcionamento das turbinas apresenta desafios únicos. Este trabalho procura responder a esta necessidade, propondo uma abordagem ino- vadora para prever o estado operacional das três turbinas do cluster WindFloat Atlantic, utilizando dados de código aberto e imagens de satélite avançadas. Tirando partido dos dados de alta resolução fornecidos pelo SENTINEL-2, parte do programa europeu de observação terrestre Copernicus, juntamente com informações da European Network of Transmission System Operators for Electricity (ENTSO-E), o algoritmo desenvolvido per- mitirá previsões mais precisas do desempenho das turbinas. Este modelo tem como objetivo fornecer informações valiosas que possam melhorar as estratégias de O&M, assegurando a fiabilidade e eficiência a longo prazo destes ativos críticos de energia renovável. Ao utilizar estas fontes de dados de código aberto, esta investigação contribui para melhorar a sustentabilidade e a resiliência operacional da energia eólica offshore, apoiando os objetivos mais amplos da Europa de independência energética e responsabilidade am- biental.",
+    "classificacao": 3,
+    "tecnologias": [
+      236
+    ]
+  }
+},
+{
+  "model": "portfolio.tfc",
+  "pk": 685,
+  "fields": {
+    "titulo": "Comparação de Estratégias de Marketing Digital Baseadas em Redes Sociais para Pequenas e Médias Empresas (PMEs)",
+    "autor": "Perla Lima",
+    "orientador": "Fernando Angelino",
+    "curso": "Licenciatura em Informática de Gestão.  2025",
+    "ano": 2025,
+    "resumo": "Este trabalho analisa comparativamente as estratégias de marketing digital em redes sociais para Pequenas e Médias Empresas (PMEs), com foco nas ferramentas publicitárias Facebook Ads, Instagram Ads e TikTok Ads. Utilizando métricas como envolvimento, cliques, conversões e custo por lead, avalia-se a eficácia de cada plataforma em termos de custo-benefício e retorno sobre o investimento (ROI). A pesquisa combina a revisão de literatura com a análise de campanhas simuladas e reais, empregando ferramentas disponibilizadas pelas respetivas plataformas das redes socias e softwares de análise de dados para identificar como variáveis como orçamento e público-alvo influenciam os resultados. Os principais resultados destacam a importância de estratégias personalizadas e apontam recomendações práticas para que PMEs otimizem os seus recursos, maximizem resultados e escolham plataformas adequadas ao seu tipo de produto, público-alvo e orçamento. O estudo contribui para a compreensão académica e prática do impacto das redes sociais no desempenho de campanhas digitais.",
+    "classificacao": 5,
+    "tecnologias": [
+      269
+    ]
+  }
+},
+{
+  "model": "portfolio.tfc",
+  "pk": 686,
+  "fields": {
+    "titulo": "Configurador Software Aviónico  e gerador de código fonte",
+    "autor": "Ricardo Costa Lopes",
+    "orientador": "Daniel Silveira",
+    "curso": "Licenciatura em Engenharia Informática.  2025",
+    "ano": 2025,
+    "resumo": "Este projeto tem como referência um projeto do ano anterior, que se pretende dar continuidade. Assim como no ano passado o projeto mantém o objetivo de aprimorar a configuração de sistemas aviónicos espaciais, especificamente no contexto do Integrated Modular Avionic (IMA) e da arquitetura do software AIR desenvolvido pela empresa GMV. A solução atualmente proposta pretende dar continuidade, efetuado o desenvolvimento de uma Interface Gráfica Avançada (IGA) que redefine os padrões de eficiência, segurança e conformidade na configuração de sistemas espaciais. Pretende-se que o IGA seja intuitivo e centrado na usabilidade, proporcionando uma experiência eficaz mesmo para utilizadores com conhecimentos técnicos limitados. A principal funcionalidade da IGA é a geração automática de código-fonte com base nas configurações modeladas na interface. Isso não apenas otimiza o processo de configuração, mas também garante a precisão e a conformidade com as melhores práticas de programação.",
+    "classificacao": 3,
+    "tecnologias": [
+      249,
+      251,
+      252,
+      270,
+      271,
+      272
+    ]
+  }
+},
+{
+  "model": "portfolio.tfc",
+  "pk": 687,
+  "fields": {
+    "titulo": "Dashboard para Monitorização em Tempo Real da Produção e Consumo de Energia no Campus",
+    "autor": "Francisco Lucas",
+    "orientador": "Lúcio Studer, Martijn Kuipers",
+    "curso": "Licenciatura em Engenharia Informática.  2025",
+    "ano": 2025,
+    "resumo": "Desenvolver um dashboard que mostre a produção de energia pelos painéis fotovoltaicos e o consumo de energia no campus, fornecendo uma visão clara e prática do estado energético da instituição e indicadores de desempenho. O dashboard devia apresentar indicadores acumulados de contadores de energia, uma análise de desempenho (mal, bom, preciso de melhorar), histórico e tendências e poupanças financeiras estimados. O dashboard é para sensibilizar as pessoas no campus para a energia eficiente.",
+    "classificacao": 5,
+    "tecnologias": [
+      236,
+      249,
+      252,
+      273
+    ]
+  }
+},
+{
+  "model": "portfolio.tfc",
+  "pk": 688,
+  "fields": {
+    "titulo": "Desenvolvimento em plataforma LowCode",
+    "autor": "Rodrigo Rodrigues, João Ferreira",
+    "orientador": "Rui Ribeiro",
+    "curso": "Licenciatura em Engenharia Informática. Licenciatura em Informática de Gestão.  2025",
+    "ano": 2025,
+    "resumo": "Compreender BD e Plataformas lowcode Desenhar e criar BD relacional Desenhar e desenvolver aplicação em lowcode Conceitos como autenticação, autorização, acessibilidade, responsivo",
+    "classificacao": 3,
+    "tecnologias": [
+      273
+    ]
+  }
+},
+{
+  "model": "portfolio.tfc",
+  "pk": 689,
+  "fields": {
+    "titulo": "Design and Implementation of a 6G Testbed for Pilot Planning",
+    "autor": "Luisa Ferreira",
+    "orientador": "Luís Campos",
+    "curso": "Licenciatura em Engenharia Informática.  2025",
+    "ano": 2025,
+    "resumo": "Establish a robust testing environment to evaluate and validate various 6G network technologies and use cases, ensuring that key features such as dynamic trust, continuous security monitoring, and intelligent edge computing are effectively integrated and assessed.",
+    "classificacao": 3,
+    "tecnologias": [
+      236,
+      241,
+      251,
+      273,
+      274,
+      275,
+      276
+    ]
+  }
+},
+{
+  "model": "portfolio.tfc",
+  "pk": 690,
+  "fields": {
+    "titulo": "Deteção de Microplásticos",
+    "autor": "Damien Nazário",
+    "orientador": "Daniel Fernandes, João Pedro Carvalho",
+    "curso": "Licenciatura em Ciência de Dados.  2025",
+    "ano": 2025,
+    "resumo": "Neste trabalho final de curso, propõe-se o desenvolvimento de um modelo computacional para a deteção de microplásticos em amostras de água. A metodologia adotada assenta na implementação de algoritmos de processamento de imagem, concebidos para identificar e classificar automaticamente partículas de microplásticos.",
+    "classificacao": 3,
+    "tecnologias": [
+      236,
+      277
+    ]
+  }
+},
+{
+  "model": "portfolio.tfc",
+  "pk": 691,
+  "fields": {
+    "titulo": "DigiDoc – app inteligente de gerenciamento de documentos",
+    "autor": "Bruno Ramos",
+    "orientador": "Daniel Silveira, Martijn Kuipers",
+    "curso": "Licenciatura em Engenharia Informática.  2025",
+    "ano": 2025,
+    "resumo": "DigiDoc é uma aplicação móvel desenvolvida pelo aluno licenciado em engenharia informática, Bruno Ramos, focada na gestão digital de documentos pessoais. O utilizador pode escolher um tipo de documento (como Cartão de Cidadão, Passaporte, etc.), digitalizá-lo através da câmara, e a app deteta automaticamente o documento na imagem, permitindo ajustar o recorte. Depois, realiza extração de texto (OCR) para facilitar a pesquisa por palavras-chave. A app ainda mapeia a data de validade dos documentos para enviar notificações. Também permite organizar documentos em dossiers associados a pessoas ou entidades, com proteção por código de acesso. Usa SQFLite como base de dados local.",
+    "classificacao": 5,
+    "tecnologias": [
+      243
+    ]
+  }
+},
+{
+  "model": "portfolio.tfc",
+  "pk": 692,
+  "fields": {
+    "titulo": "Disentanglement in multiparty conversation",
+    "autor": "Daniel Nascimento, Pedro Prata",
+    "orientador": "Bruno Saraiva, Zuil Pirola",
+    "curso": "Licenciatura em Engenharia Informática.  2025",
+    "ano": 2025,
+    "resumo": "When confronted with multiple people interacting with each other there exists a need to separate and identify multiple conversations to participate in them. As online interactions increase, the ability to do the same within complex digital environments becomes critical for ensuring clarity and effective communication and analysis of dialogue. We address this challenge by analyzing the current best practices used, attempting potential improvements and studying the use of machine learning techniques to enhance the accuracy and efficiency of conversation disentanglement.",
+    "classificacao": 3,
+    "tecnologias": [
+      236
+    ]
+  }
+},
+{
+  "model": "portfolio.tfc",
+  "pk": 693,
+  "fields": {
+    "titulo": "Ferramenta de Anotação",
+    "autor": "Fábio Lopes",
+    "orientador": "Bruno Saraiva, Zuil Pirola",
+    "curso": "Licenciatura em Engenharia Informática.  2025",
+    "ano": 2025,
+    "resumo": "Ferramenta de anotação personalizada de dados. Em diversas áreas de machine learning, há a necessidade de anotar dados para que depois possam ser utilizados em modelos. A ferramenta deverá anotar dados de conversas online com o objetivo de resolver um problema em NLP denominada \"disentanglement\". Anotações como estas exigem vários anotadores, pelo que a ferramenta deve ser capaz de calcular o nível de concordância (agreement) entre eles.",
+    "classificacao": 3,
+    "tecnologias": [
+      236,
+      278
+    ]
+  }
+},
+{
+  "model": "portfolio.tfc",
+  "pk": 694,
+  "fields": {
+    "titulo": "Gestão de distribuição alimentar v2",
+    "autor": "Tiago Henrique Duarte Da Silva Jorge",
+    "orientador": "Luís Gomes",
+    "curso": "Licenciatura em Engenharia Informática.  2025",
+    "ano": 2025,
+    "resumo": "Ferramenta de gestão alimentar",
+    "classificacao": 3,
+    "tecnologias": [
+      241,
+      263,
+      271,
+      273
+    ]
+  }
+},
+{
+  "model": "portfolio.tfc",
+  "pk": 695,
+  "fields": {
+    "titulo": "IMOinvestor: Inovação no Investimento Imobiliário (Back-end)",
+    "autor": "Akashpreet Singh, Gabriel Almeida",
+    "orientador": "Pedro Perdigão",
+    "curso": "Licenciatura em Engenharia Informática.  2025",
+    "ano": 2025,
+    "resumo": "Este Trabalho Final de Curso (TFC) centra-se no desenvolvimento de uma aplicação back end especializada para o setor imobiliário, direcionada às necessidades dos investidores. A proposta, desenvolvida em colaboração com a empresa IMOINVESTOR, procura colmatar uma lacuna significativa no mercado português, onde não existem soluções digitais adaptadas à análise e gestão de investimentos imobiliários. O sistema integra funcionalidades como o cálculo de retorno sobre o investimento (ROI), gestão de portfólios e propriedades, e acesso a dados fiscais e projeções de valorização. O desenvolvimento utiliza tecnologias robustas, como o Django REST Framework, garantindo escalabilidade, segurança e eficiência. A solução proposta visa centralizar informações cruciais e promover a democratização do acesso a ferramentas avançadas, contribuindo para decisões mais informadas no setor. A parceria com a IMOINVESTOR tem sido essencial para assegurar que a aplicação responde às necessidades reais do mercado, sendo validada com utilizadores reais. O projeto inclui ainda um plano rigoroso de testes para garantir a sua relevância e aplicabilidade. Este TFC tem como objetivo alcançar padrões de excelência, contribuindo para a transformação digital no mercado imobiliário em Portugal.",
+    "classificacao": 3,
+    "tecnologias": [
+      236,
+      245,
+      250,
+      275,
+      279,
+      280
+    ]
+  }
+},
+{
+  "model": "portfolio.tfc",
+  "pk": 696,
+  "fields": {
+    "titulo": "IMOinvestor: Inovação no Investimento Imobiliário – (Front-end – App & Web)",
+    "autor": "José Vale, Daniel Rodrigues",
+    "orientador": "Pedro Perdigão",
+    "curso": "Licenciatura em Engenharia Informática.  2025",
+    "ano": 2025,
+    "resumo": "O ImoInvestor é uma plataforma digital inovadora desenvolvida para estabelecer um novo padrão para plataformas imobiliárias orientadas a investidores, no mercado português. Diferentemente das soluções tradicionais, que se concentram nos consumidores finais, o ImoInvestor foca-se em fornecer ferramentas avançadas e personalizadas para apoiar decisões estratégicas no setor imobiliário. Funcionalidades como filtros avançados para imóveis com elevado retorno sobre investimento (ROI), gráficos interativos de projeção financeira e relatórios personalizados distinguem esta aplicação, promovendo uma abordagem eficiente e orientada para dados. Este trabalho foca-se no desenvolvimento do front-end, responsável por criar uma interface intuitiva e funcional que simplifica a apresentação de informações complexas e otimiza a experiência do utilizador.",
+    "classificacao": 4,
+    "tecnologias": [
+      244,
+      249,
+      251,
+      278
+    ]
+  }
+},
+{
+  "model": "portfolio.tfc",
+  "pk": 697,
+  "fields": {
+    "titulo": "IMOinvestor: Inovação no Investimento Imobiliário – (Front-end – App & Web)",
+    "autor": "José Maria Chaves Da Cunha De Lucena, Vale, Daniel Da Conceição Rodrigues",
+    "orientador": "Pedro Perdigão",
+    "curso": "Licenciatura em Engenharia Informática.  2025",
+    "ano": 2025,
+    "resumo": "IMOinvestor é uma plataforma digital projetada para transformar o modo como os investidores acessão e gerenciam oportunidades no mercado imobiliário. Este projeto visa desenvolver uma solução tecnológica que permita aos usuários explorar, analisar e investir em imóveis de maneira eficiente e informativa. Através de uma interface intuitiva, IMOinvestor proporcionará ferramentas de pesquisa avançada, detalhes completos dos imóveis, e um sistema de gestão de investimentos integrado.",
+    "classificacao": 4,
+    "tecnologias": [
+      243,
+      244,
+      251,
+      281
+    ]
+  }
+},
+{
+  "model": "portfolio.tfc",
+  "pk": 698,
+  "fields": {
+    "titulo": "Identificação de arritmias via app",
+    "autor": "Sebastião Coelho",
+    "orientador": "Iolanda Velho, Lúcio Studer",
+    "curso": "Licenciatura em Informática de Gestão.  2025",
+    "ano": 2025,
+    "resumo": "O objetivo do trabalho é contribuir para a identificação precoce de arritmias através de um modelo de machine learning e integrar o mesmo numa aplicação móvel previamente desenvolvida capaz de fazer a leitura da frequência cardíaca através de uma técnica chamada Fotopletismografia, com o objetivo de prever eventos negativos.",
+    "classificacao": 5,
+    "tecnologias": [
+      236,
+      237,
+      254,
+      255,
+      282
+    ]
+  }
+},
+{
+  "model": "portfolio.tfc",
+  "pk": 699,
+  "fields": {
+    "titulo": "Interface Azure para ERP",
+    "autor": "Tiago Amaro",
+    "orientador": "Luís Gomes",
+    "curso": "Licenciatura em Informática de Gestão.  2025",
+    "ano": 2025,
+    "resumo": "Pretende-se criar uma solução baseada em micro-serviços que permita a integração de ERP empresarial, em particular na componente de Gestão de Recursos Humanos (GRH), com plataforma Microsoft Azure de modo a gerir utilizadores desta de forma transparente a partir da relação laboral. O desenvolvimento será focado em Entra ID e MS365, mas poderá evoluir para funcionalidades mais avançadas",
+    "classificacao": 3,
+    "tecnologias": [
+      236,
+      273,
+      283
+    ]
+  }
+},
+{
+  "model": "portfolio.tfc",
+  "pk": 700,
+  "fields": {
+    "titulo": "Interface Azure para ERP",
+    "autor": "Tiago Amaro",
+    "orientador": "Luís Gomes",
+    "curso": "Licenciatura em Informática de Gestão.  2025",
+    "ano": 2025,
+    "resumo": "Pretende-se criar uma solução baseada em micro-serviços que permita a integração de ERP empresarial, em particular na componente de Gestão de Recursos Humanos (GRH), com plataforma Microsoft Azure de modo a gerir utilizadores desta de forma transparente a partir da relação laboral. O desenvolvimento será focado em Entra ID e MS365, mas poderá evoluir para funcionalidades mais avançadas",
+    "classificacao": 3,
+    "tecnologias": [
+      236,
+      283
+    ]
+  }
+},
+{
+  "model": "portfolio.tfc",
+  "pk": 701,
+  "fields": {
+    "titulo": "IoT Lab2.0 – CGI – Indústria",
+    "autor": "Ricardo Borges, Samir Natvarlal",
+    "orientador": "José Cascais Brás, Rui Ribeiro",
+    "curso": "Licenciatura em Engenharia Informática.  2025",
+    "ano": 2025,
+    "resumo": "(Continuidade de TFC de 2023/24) \"IoT-Internet of Things Lab\" baseado em duas maquetes funcionais com o objetivo de materializar a Internet das Coisas em algo \"físico e real\". Demonstrando que o valor do conceito se materializa através de sinergias obtidas num ecossistema de tecnologias integradas e é maior que as partes separadamente. Desafio – Frontend (Operacional & Dashboarding) – Analítica e Machine Learning – Mobile com integração de realidade aumentada",
+    "classificacao": 5,
+    "tecnologias": [
+      243,
+      263,
+      284
+    ]
+  }
+},
+{
+  "model": "portfolio.tfc",
+  "pk": 702,
+  "fields": {
+    "titulo": "My Lessons : Gestão Inteligente de Escolas",
+    "autor": "Francisco Sousa",
+    "orientador": "Lúcio Studer, Martim Mourão",
+    "curso": "Licenciatura em Engenharia Informática.  2025",
+    "ano": 2025,
+    "resumo": "Acredito profundamente que o tempo é o nosso recurso mais valioso e limitado, e que o ensino é a forma mais eficaz de transformar positivamente o mundo. Para concretizar plenamente este potencial, desenvolvi a plataforma My Lessons, uma solução digital inovadora e integrada que utiliza Inteligência Artificial para automatizar tarefas administrativas rotineiras, libertando tempo para educadores, líderes escolares e famílias se focarem no que realmente importa. Com uma abordagem centrada na simplicidade, personalização e integração estratégica, o My Lessons oferece desde gestão financeira simplificada, organização eficiente de aulas e eventos, relatórios automáticos de progresso, até comunicação automatizada e integração com ferramentas essenciais, como calendários digitais, Stripe, Twilio, YouTube e Google, garantindo uma gestão superior e uma experiência educativa enriquecedora para todos os utilizadores.",
+    "classificacao": 3,
+    "tecnologias": [
+      236,
+      240,
+      243,
+      244,
+      247,
+      250,
+      259,
+      262,
+      263,
+      285
+    ]
+  }
+},
+{
+  "model": "portfolio.tfc",
+  "pk": 703,
+  "fields": {
+    "titulo": "NicePandora",
+    "autor": "Francisco Chambel",
+    "orientador": "Daniel Silveira, Pedro Serra",
+    "curso": "Licenciatura em Informática de Gestão.  2025",
+    "ano": 2025,
+    "resumo": "O Pandora é uma plataforma educacional inovadora que utiliza inteligência artificial para melhorar a avaliação e compreensão de código em ambientes de aprendizagem. Este sistema foi projetado para resolver problemas enfrentados por professores e alunos durante processos de avaliação em disciplinas de programação, proporcionando feedback detalhado, contextualizado e adaptado ao nível de competência do utilizador. A solução implementa funcionalidades avançadas, como a análise de código comparativa entre submissões de alunos e códigos de referência, exibição de mensagens de erros detalhadas, e relatórios de progresso para professores. Além disso, o Pandora oferece personalização no feedback, incluindo dicas ajustadas, validação estrutural de código e uma interface intuitiva que facilita a navegação e a usabilidade por parte de novos utilizadores. No desenvolvimento, priorizou-se uma abordagem modular e escalável, permitindo integração com ferramentas educacionais existentes e suporte a múltiplas linguagens de programação. Foram realizados testes em ambiente controlado para validar a eficácia das funcionalidades propostas, demonstrando resultados promissores na melhoria da aprendizagem e eficiência na correção de códigos. Com potencial para ser implementado em larga escala, o Pandora atende aos critérios de um produto viável mínimo, validando os conceitos propostos e destacando-se como uma solução prática e eficiente para desafios reais no ensino de programação. A plataforma está pronta para evoluir para ambientes de produção, demonstrando grande impacto.",
+    "classificacao": 3,
+    "tecnologias": [
+      236,
+      241,
+      244,
+      250,
+      251,
+      286,
+      287,
+      288,
+      289,
+      290
+    ]
+  }
+},
+{
+  "model": "portfolio.tfc",
+  "pk": 704,
+  "fields": {
+    "titulo": "OP – Opening Doors",
+    "autor": "Guilherme Ribeiro",
+    "orientador": "Daniel Fernandes, João Pedro Carvalho",
+    "curso": "Licenciatura em Engenharia Informática.  2025",
+    "ano": 2025,
+    "resumo": "O projeto consiste na criação de um sistema para controlo remoto de portas utilizando um servidor Flask e um Arduino Uno WiFi. O servidor Flask é responsável por gerir os utilizadores e as portas através de uma API REST, permitindo: – Registar utilizadores e armazenar credenciais encriptadas. – Criar e gerir portas associadas a cada utilizador. – Enviar comandos ao Arduino para abrir ou fechar portas. A comunicação entre o Flask e o Arduino é feita através da porta serial (USB). Quando um utilizador solicita a abertura de uma porta, o servidor envia um comando ao Arduino, que recebe a instrução e aciona um LED (ou uma fechadura, numa versão avançada). A base de dados SQLite armazena os utilizadores e as portas associadas. Cada porta tem um estado (\"aberta\" ou \"fechada\") e um canal de comunicação definido. O Arduino Uno WiFi está programado para: 1. Ler comandos recebidos pela porta serial. 2. Acionar o LED interno como indicador de estado. 3. Responder ao servidor Flask com mensagens de confirmação. Este projeto pode ser expandido para integrar fechaduras eletrónicas reais, autenticação de utilizadores e comunicação via WiFi em vez de USB.",
+    "classificacao": 3,
+    "tecnologias": [
+      236,
+      284,
+      291
+    ]
+  }
+},
+{
+  "model": "portfolio.tfc",
+  "pk": 705,
+  "fields": {
+    "titulo": "Plataforma MentHA Digital, Mental Health and Aging",
+    "autor": "Tomás Nave, André Jesus",
+    "orientador": "Lúcio Studer",
+    "curso": "Licenciatura em Engenharia Informática.  2025",
+    "ano": 2025,
+    "resumo": "O Projeto MentHA (Mental Health and Aging) tem como objetivo desenvolver e otimizar uma aplicação Web destinada a melhorar o bem-estar e a qualidade de vida de adultos mais velhos com défice cognitivo, demência leve ou transtornos dissociativos de identidade, bem como apoiar os seus cuidadores formais e informais, promovendo a saúde mental na comunidade.",
+    "classificacao": 3,
+    "tecnologias": [
+      236,
+      241,
+      248,
+      249,
+      250,
+      251,
+      252,
+      279,
+      292
+    ]
+  }
+},
+{
+  "model": "portfolio.tfc",
+  "pk": 706,
+  "fields": {
+    "titulo": "Plataforma de Cibersegurança Inteligente",
+    "autor": "Miguel Loureço, Vasco Pereira",
+    "orientador": "Rui Ribeiro",
+    "curso": "Licenciatura em Engenharia Informática.  2025",
+    "ano": 2025,
+    "resumo": "Plataforma que recolhe toda a informação dos vários ativos de uma empresa (servidores, PCs, switches, routers, etc) para permitir ter toda a visão de cadastro, bem como analisar dados de rede interna e externa sobre uma empresa. Esta plataforma permite desta forma analisar vulnerabilidades e realizar análises inteligentes de prevenção a ataques.",
+    "classificacao": 3,
+    "tecnologias": [
+      236,
+      244,
+      291,
+      293,
+      294,
+      295,
+      296
+    ]
+  }
+},
+{
+  "model": "portfolio.tfc",
+  "pk": 707,
+  "fields": {
+    "titulo": "Plataforma de E-commerce Shopify",
+    "autor": "Bruno Rodrigues, Tânia Magalhães",
+    "orientador": "Rui Ribeiro",
+    "curso": "Licenciatura em Informática de Gestão.  2025",
+    "ano": 2025,
+    "resumo": "O presente Trabalho Final de Curso (TFC) tem como objetivo demonstrar a construção de uma loja online, Infinity, através da utilização da plataforma Shopify. Pretende-se criar uma solução capaz de acompanhar o crescimento do mercado de e-commerce, bem como oferecer uma proposta inovadora que combina a personalização da loja, através da integração de novas tecnologias como a Inteligência Artificial, e a incorporação de redes sociais, para fortificar a relação com o cliente. O relatório demonstra uma análise detalhada do mercado de e-commerce comparando soluções existentes, como: Shopify, Woocommerce, VTEX, Salesforce Commerce Cloud e Adobe Commerce. Recorrendo aos dados obtidos nesta análise, identificam-se lacunas e oportunidades que justificam a relevância e pertinência do projeto. Para uma melhor abordagem do problema acima referido foram combinados diversos conceitos adquiridos ao longo da licenciatura, relacionados com o planeamento de projeto, desde a recolha e análise de requisitos até à realização de testes de validação.",
+    "classificacao": 3,
+    "tecnologias": [
+      251
+    ]
+  }
+},
+{
+  "model": "portfolio.tfc",
+  "pk": 708,
+  "fields": {
+    "titulo": "Plataforma de Low-Code",
+    "autor": "Rodrigo Rodrigues, João Ferreira",
+    "orientador": "Rui Ribeiro",
+    "curso": "Licenciatura em Informática de Gestão.  2025",
+    "ano": 2025,
+    "resumo": "OBJETIVO: desenvolvimento de aplicações baseadas em plataforma lowcode. modelação de dados, desenho de fluxos aplicacionais, SQL e de rotinas plsql, javascript, workspaces. PLANO RESUMO: Compreender BD e Plataformas lowcode Desenhar e criar BD relacional Desenhar e desenvolver aplicação em lowcode Conceitos como autenticação, autorização, acessibilidade, responsivo",
+    "classificacao": 3,
+    "tecnologias": [
+      251,
+      252,
+      273
+    ]
+  }
+},
+{
+  "model": "portfolio.tfc",
+  "pk": 709,
+  "fields": {
+    "titulo": "Plataforma de Monitorização de Albufeiras",
+    "autor": "Ricardo Gonçalves, Ricardo Piedade",
+    "orientador": "Lúcio Studer, Martim Mourão",
+    "curso": "Licenciatura em Engenharia Informática.  2025",
+    "ano": 2025,
+    "resumo": "A proposta de projeto WATER-WISE (Plataforma Geoespacial para Gestão Inteligente da Água), que neste momento se encontra em avaliação, tem como objetivo dar resposta às necessidades de gestores de recursos hídricos, agricultores e investigadores, através de soluções e ferramentas capazes de gerir os recursos hídricos e as práticas agrícolas. O foco principal deste projeto é desenvolver uma aplicação web, com a função de integrar e processar dados provenientes de diversas fontes e posteriormente apresentá-los de uma forma visual e dinâmica, para apoiar estas mesmas necessidades. Esta aplicação irá recolher e processar dados provenientes de outros grupos do projeto, como: medições no terreno, dados de telemetria, análises de modelos preditivos, projeções climáticas e previsões meteorológicas. Esses modelos permitem simular cenários como balanços hídricos, dinâmicas de bacias hidrográficas e condições dos reservatórios, oferecendo informações que ajudam a prever necessidades futuras e a identificar potenciais riscos. A integração destes criará uma aplicação capaz de proporcionar aos utilizadores uma visão clara e detalhada da situação atual e da disponibilidade dos recursos hídricos. Sobre as funcionalidades principais que vão estar disponíveis na aplicação, a mesma contará com: visualização de dados através de dashboards, gráficos, mapas e séries temporais interativos, possibilitando que os utilizadores façam a sua análise da forma que pretenderem. Terá também sistemas de alerta através de ML, com o objetivo de notificar os utilizadores sobre condições específicas, como situações de seca agrícola ou níveis baixos de água. Estas funcionalidades facilitam a gestão dos recursos disponíveis. Com uma interface intuitiva e fácil de usar, a aplicação estará disponível em português, inglês e espanhol, garantindo que os parceiros do projeto Europeu possam utilizar a mesma sem qualquer problema. Garantir essa acessibilidade e disponibilidade é bastante importante, pois reflete o compromisso deste projeto com a disponibilização fácil da informação e das soluções. O projeto Water-Wise será realizado com o intuito de promover e adaptar a utilização deste tipo de ferramentas, sendo assim, uma solução flexível e inovadora que ajudará tanto os agricultores como todos os utilizadores que necessitarem da informação tratada e disponibilizada pelo mesmo, promovendo uma melhor tomada de decisão face às mudanças climáticas previstas.",
+    "classificacao": 3,
+    "tecnologias": [
+      251,
+      278,
+      297,
+      298,
+      299,
+      300,
+      301
+    ]
+  }
+},
+{
+  "model": "portfolio.tfc",
+  "pk": 710,
+  "fields": {
+    "titulo": "Plataforma e-commerce Shopify",
+    "autor": "Bruno Gonçalo Branco Rodrigues, Tania Andreia Magalhaes",
+    "orientador": "Rui Ribeiro",
+    "curso": "Licenciatura em Engenharia Informática.  2025",
+    "ano": 2025,
+    "resumo": "Pretende-se desenvolver um conjunto alargado de plataformas de e-commerce B2C e B2B com integrações com redes sociais, Google ads, plataformas de pagamentos entre outros.",
+    "classificacao": 3,
+    "tecnologias": [
+      244,
+      251,
+      256,
+      278
+    ]
+  }
+},
+{
+  "model": "portfolio.tfc",
+  "pk": 711,
+  "fields": {
+    "titulo": "Power Platform Digital Transformation",
+    "autor": "Ricardo Alexandre Gonçalves",
+    "orientador": "Rui Ribeiro",
+    "curso": "Licenciatura em Engenharia Informática.  2025",
+    "ano": 2025,
+    "resumo": "O projeto centra-se na modernização dos sistemas de radiocomunicações de uma entidade, através da implementação de um novo portal baseado em tecnologias da Microsoft e Power Platform. Esta solução visa substituir soluções já existentes, e promover a digitalização de processos, explorando tendências tecnológicas emergentes por intermédio de ferramentas Low-Code. A nova plataforma está a ser concebida com um design moderno e compatível com os sistemas existentes, enquanto a mesma trabalha na organização unificada das funcionalidades que guiarão a estrutura do portal. A plataforma representa uma abordagem inovadora ao desenvolvimento de soluções digitais, democratizando o acesso à criação de aplicações através de ferramentas Low-Code. Estas funcionalidades permitem acelerar o desenvolvimento, oferecer personalização e aumentar a eficiência dos processos. A plataforma foi testada e validada em ambiente de produção, demonstrando vantagens significativas, especialmente para pequenas e médias empresas, ao reduzir custos e superar barreiras no acesso a tecnologias avançadas. Os resultados obtidos evidenciam o potencial transformador das plataformas Low-Code no contexto organizacional, destacando o seu contributo para a digitalização, a eficiência e a inovação tecnológica. O projeto não só procura a criação de soluções escaláveis e adaptáveis, como também reforçou o papel estratégico destas tecnologias na modernização empresarial e institucional. Esta abordagem revela-se de elevado valor para o mercado, ao abrir novas possibilidades para o desenvolvimento tecnológico de organizações com diferentes dimensões e necessidades.",
+    "classificacao": 3,
+    "tecnologias": [
+      302
+    ]
+  }
+},
+{
+  "model": "portfolio.tfc",
+  "pk": 712,
+  "fields": {
+    "titulo": "Rede Social para a Comunidade Universitaria",
+    "autor": "Francisco Gomes, Mário Valentino",
+    "orientador": "Rui Santos",
+    "curso": "Licenciatura em Informática de Gestão.  2025",
+    "ano": 2025,
+    "resumo": "Este TFC consiste em desenvolver uma WebApp e uma aplicação móvel que permitam aos estudantes universitários expor e partilhar os seus trabalhos/atividades da vida académica, criar e personalizar os seus portfólios/perfis, com a possibilidade de integrar um marketplace para venda dos trabalhos ou merchandising.",
+    "classificacao": 5,
+    "tecnologias": [
+      240,
+      243,
+      247
+    ]
+  }
+},
+{
+  "model": "portfolio.tfc",
+  "pk": 713,
+  "fields": {
+    "titulo": "Segmentação de incêndios florestais",
+    "autor": "Francisco Perpétuo Alves",
+    "orientador": "Houda Harkat, João Pedro Carvalho",
+    "curso": "Licenciatura em Ciência de Dados.  2025",
+    "ano": 2025,
+    "resumo": "Os incêndios florestais constituem um dos desastres naturais mais devastadores, causando impactos ambientais, sociais e económicos significativos. Estes eventos ameaçam ecossistemas inteiros, comprometem a biodiversidade, colocam vidas humanas e animais em risco e contribuem para o agravamento das alterações climáticas devido à emissão de gases com efeito de estufa. Assim, a deteção precoce e eficiente de incêndios é essencial para mitigar os seus danos e permitir intervenções rápidas e eficazes. O desenvolvimento de incêndios florestais ocorre em duas fases principais: a emissão de fumo, que é o primeiro indicador visível do início de uma combustão, e, posteriormente, o aparecimento de chamas, que marcam um estado mais avançado e perigoso do fogo. A deteção de fumo é particularmente desafiante devido à sua natureza translúcida e à dispersão em condições ambientais adversas, como ventos ou luminosidade variável. Por outro lado, o fogo é mais fácil de identificar, mas quando visível, normalmente já representa uma situação crítica. Assim, um sistema de deteção eficaz deve ser capaz de identificar tanto o fumo quanto o fogo para facilitar uma intervenção atempada. Esta trabalho propõe o desenvolvimento de um sistema avançado baseado em deep learning para a segmentação simultânea de fumo e fogo em imagens. Serão exploradas duas arquiteturas reconhecidas pela sua eficiência em tarefas de segmentação, a U-Net e a ResUNet, ambas capazes de realizar classificações pixel-a-pixel em cenários complexos. Os modelos serão treinados e avaliados utilizando dois conjuntos de dados: o Corsican, um dataset público, e o Gestosa, um dataset privado, ambos contendo imagens captadas por drones e sensores térmicos. O estudo também investigará a melhoria dessas arquiteturas por meio da otimização das funções de perda para aumentar a sua precisão e robustez, especialmente em condições ambientais desafiadoras. A otimização das arquiteturas visa melhorar a deteção de padrões complexos, como os contornos irregulares de fumo e fogo, e garantir uma maior eficácia em diferentes cenários. Espera-se que os resultados desta trabalho demonstrem a viabilidade e a eficácia de sistemas baseados em deep learning para a deteção precoce de incêndios florestais. Esta abordagem representa um avanço significativo ao combinar a identificação de fumo e fogo numa única solução, com potencial para transformar as estratégias de monitorização, resposta a emergências e preservação ambiental.",
+    "classificacao": 3,
+    "tecnologias": [
+      236,
+      277
+    ]
+  }
+},
+{
+  "model": "portfolio.tfc",
+  "pk": 714,
+  "fields": {
+    "titulo": "Sistema Integrado de Gestão de Stocks",
+    "autor": "Fábio Tomé",
+    "orientador": "Rui Ribeiro",
+    "curso": "Licenciatura em Informática de Gestão.  2025",
+    "ano": 2025,
+    "resumo": "Este trabalho analisa o fluxo operacional e os desafios de gestão de stock de uma empresa localizada no MARL, dedicada à distribuição de frutas, hortícolas e legumes. Foram identificados problemas relacionados com a gestão manual de tabelas de stock em Excel, resultando em potenciais erros na contagem e na faturação. Como método, foi realizado um levantamento detalhado do funcionamento das operações da empresa, incluindo armazenamento, processamento em fábrica e vendas, bem como das entradas e saídas registadas nos sistemas de controlo. As principais conclusões incluem a necessidade de automatizar processos para reduzir erros, melhorar a rastreabilidade e otimizar os tempos de resposta, garantindo maior eficiência na operação e na satisfação dos clientes.",
+    "classificacao": 3,
+    "tecnologias": [
+      303
+    ]
+  }
+},
+{
+  "model": "portfolio.tfc",
+  "pk": 715,
+  "fields": {
+    "titulo": "Utilização de Inteligência Artificial no combate aos comportamentos aditivos e dependências",
+    "autor": "Afonso Amaral, João Carmona",
+    "orientador": "Iolanda Velho",
+    "curso": "Licenciatura em Informática de Gestão.  2025",
+    "ano": 2025,
+    "resumo": "Em estreita colaboração com a Associação Ares do Pinhal (AdP), uma IPSS que tem como missão promover a inclusão social de pessoas com comportamentos aditivos e dependências centrada numa abordagem de redução de riscos e danos, neste trabalho pretende-se aplicar a inteligência artificial para analisar a grande quantidade de dados que a AdP é detentora, de modo a encontrar tendências e produzir insights relevantes no combate à toxicodependência e consequentes danos associados ao consumo.",
+    "classificacao": 5,
+    "tecnologias": [
+      236,
+      241,
+      254,
+      255,
+      304
+    ]
+  }
+},
+{
+  "model": "portfolio.tfc",
+  "pk": 716,
+  "fields": {
+    "titulo": "i-Inflation",
+    "autor": "Gonçalo Barata, Maria Inês Silva",
+    "orientador": "Luís Miguel Campos",
+    "curso": "Licenciatura em Ciência de Dados.  2025",
+    "ano": 2025,
+    "resumo": "A inflação é um indicador económico crítico que afeta indivíduos, empresas e governos igualmente. Apesar da sua importância, muitas pessoas não têm uma compreensão clara de como a inflação é calculada e os fatores que contribuem para a mesma. O ob- jetivo deste projeto, i-Inflation, é desenvolver uma aplicação móvel e uma aplicação web que permita aos usuários colaborar e calcular com eficiência a inflação. A plataforma fornecerá ferramentas para diversas partes interessadas, detentores, incluindo economis- tas, decisores políticos e o público em geral, para se envolverem com dados de tempo real, de modo a melhorar a precisão dos cálculos de inflação e obter uma compreensão mais profunda das tendências económicas. O projeto consistirá em desenvolvimento frontend e backend, com ênfase em interfaces fáceis de usar, visualização de dados e colaboração em tempo real. Em última análise, o i-Inflation procura democratizar a análise económica, tornando os dados de inflação mais acessíveis e compreensíveis para um público mais amplo.",
+    "classificacao": 3,
+    "tecnologias": [
+      257,
+      279,
+      305,
+      306
+    ]
+  }
+},
+{
+  "model": "portfolio.tfc",
+  "pk": 717,
+  "fields": {
+    "titulo": "iEquus",
+    "autor": "Duarte Chen",
+    "orientador": "Daniel Fernandes, João Pedro Carvalho",
+    "curso": "Licenciatura em Engenharia Informática.  2025",
+    "ano": 2025,
+    "resumo": "Este TFC, surge em parceria com a Faculdade de Medicina Veterinária da Universidade Lusófona e pretende desenvolver uma aplicação móvel para saber o estado de saúde do cavalo. A aplicação está desenvolvida para Android e iOS e é ser capaz de capturar e guardar imagens, fazer o seu processamento e devolver ao utilizador o Body Score associado ao equí­deo, bem como uma estimativa do peso.",
+    "classificacao": 3,
+    "tecnologias": [
+      236,
+      240,
+      241,
+      243,
+      263,
+      291,
+      307,
+      308
+    ]
+  }
+},
+{
+  "model": "portfolio.formacao",
+  "pk": 1,
+  "fields": {
+    "nome": "Licenciatura em Informática de Gestão",
+    "instituicao": "Universidade Lusófona",
+    "tipo": "Ensino Superior",
+    "data_inicio": "2024-09-08",
+    "data_fim": null,
+    "descricao": "Curso focado em desenvolvimento de software, bases de dados e gestão de sistemas de informação.",
+    "competencias": [
+      1,
+      2,
+      3,
+      4
+    ]
+  }
+},
+{
+  "model": "portfolio.makingof",
+  "pk": 1,
+  "fields": {
+    "titulo": "Alteração da relação entre Licenciatura e Unidade Curricular",
+    "descricao": "Durante o desenvolvimento da aplicação, foi necessário rever a relação entre as entidades Licenciatura e Unidade Curricular, de forma a representar corretamente a realidade académica. Esta alteração surgiu após verificar que algumas unidades curriculares podem ser partilhadas entre diferentes cursos.",
+    "data": "2026-04-09",
+    "imagem": "",
+    "decisao": "Inicialmente, a relação entre Licenciatura e Unidade Curricular foi definida como 1:N. No entanto, após análise mais detalhada, verificou-se que várias unidades curriculares são partilhadas entre diferentes licenciaturas, como Informática de Gestão e Engenharia Informática. \r\n\r\nDessa forma, a relação foi alterada para N:N, permitindo uma modelação mais correta e flexível da realidade.",
+    "erro": "O modelo inicial não refletia corretamente a realidade, pois associava cada unidade curricular a apenas uma licenciatura, o que levou a inconsistências na inserção de dados no Django Admin.",
+    "correcao": "Foi alterado o campo de ForeignKey para ManyToManyField entre Licenciatura e Unidade Curricular, permitindo que uma unidade curricular possa pertencer a várias licenciaturas.",
+    "justificacao": "Esta alteração foi necessária para garantir que o modelo de dados representa corretamente a estrutura académica, evitando duplicação de unidades curriculares e permitindo maior reutilização de informação.",
+    "uso_ia": "Foi utilizada inteligência artificial para esclarecer dúvidas sobre modelação de dados em Django, nomeadamente na escolha entre diferentes tipos de relações e boas práticas de desenvolvimento."
+  }
+},
+{
+  "model": "portfolio.makingof",
+  "pk": 2,
+  "fields": {
+    "titulo": "Tornar a associação a empresas parceiras opcional",
+    "descricao": "Durante o preenchimento do Django Admin, verificou-se que nem todas as licenciaturas apresentavam informação pública sobre empresas parceiras. Por esse motivo, foi necessário adaptar o modelo para permitir maior flexibilidade na inserção de dados.",
+    "data": "2026-04-09",
+    "imagem": "",
+    "decisao": "O campo empresas_parceiras foi tornado opcional no modelo Licenciatura.",
+    "erro": "Inicialmente, o sistema obrigava à inserção de empresas parceiras para todas as licenciaturas, o que não correspondia à informação disponível.",
+    "correcao": "Foi adicionado blank=True no campo ManyToManyField, permitindo guardar licenciaturas sem empresas associadas.",
+    "justificacao": "Nem todas as licenciaturas apresentam informação sobre empresas parceiras no website oficial, pelo que esta alteração permite maior flexibilidade no preenchimento dos dados.",
+    "uso_ia": "Foi utilizada inteligência artificial para esclarecer como tornar uma relação opcional no Django Admin."
+  }
+},
+{
+  "model": "portfolio.makingof",
+  "pk": 3,
+  "fields": {
+    "titulo": "Definição da estrutura da entidade Making Of",
+    "descricao": "Foi analisada a melhor forma de modelar a entidade Making Of, de modo a documentar o processo de desenvolvimento da aplicação sem introduzir complexidade excessiva no modelo de dados.",
+    "data": "2026-04-09",
+    "imagem": "",
+    "decisao": "Foi ponderada a possibilidade de relacionar diretamente o Making Of com várias entidades da aplicação. No entanto, optou-se por manter esta entidade independente.",
+    "erro": "A tentativa inicial de relacionar o Making Of com outras entidades tornava o preenchimento mais complexo e pouco prático no Django Admin.",
+    "correcao": "A entidade Making Of foi mantida sem relações diretas com as restantes entidades.",
+    "justificacao": "Um registo de Making Of pode referir-se a várias partes da aplicação ao mesmo tempo, como licenciaturas, unidades curriculares, projetos e tecnologias. Por esse motivo, a manutenção de uma estrutura independente permite maior flexibilidade e simplicidade.",
+    "uso_ia": "Foi utilizada inteligência artificial para refletir sobre diferentes possibilidades de modelação da entidade Making Of."
+  }
+},
+{
+  "model": "portfolio.makingof",
+  "pk": 4,
+  "fields": {
+    "titulo": "Adição de novos atributos à entidade Licenciatura",
+    "descricao": "Durante o carregamento de dados reais da licenciatura, verificou-se a necessidade de incluir mais informação descritiva que não estava inicialmente prevista no modelo.",
+    "data": "2026-04-08",
+    "imagem": "",
+    "decisao": "Foram adicionados os atributos objetivos e url_curso à entidade Licenciatura, de forma a enriquecer a informação disponível sobre cada curso.",
+    "erro": "O modelo inicial apresentava pouca informação descritiva sobre a licenciatura, o que limitava a sua representação no sistema. Depois do carregamento de dados de curso e unidades curriculares, decidi adicionar atributos interessantes.",
+    "correcao": "Foram criados dois novos campos no modelo: objetivos (TextField) e url_curso (URLField), permitindo armazenar informação adicional relevante.",
+    "justificacao": "A adição destes atributos permite representar melhor a licenciatura, incluindo os seus objetivos e ligação à página oficial, tornando a aplicação mais completa e informativa.",
+    "uso_ia": "Foi utilizada inteligência artificial para validar a necessidade de adicionar novos atributos e garantir boas práticas na modelação."
+  }
+},
+{
+  "model": "portfolio.makingof",
+  "pk": 5,
+  "fields": {
+    "titulo": "Atualização da entidade Unidade Curricular com novos atributos",
+    "descricao": "Ao analisar os dados das unidades curriculares, verificou-se que existiam elementos importantes que não estavam representados no modelo inicial.",
+    "data": "2026-04-08",
+    "imagem": "",
+    "decisao": "Foram adicionados os atributos codigo e objetivos à entidade Unidade Curricular.",
+    "erro": "Inicialmente, o modelo não incluía o código da unidade curricular nem os seus objetivos, o que tornava a informação incompleta. Depois do carregamento de dados de curso e unidades curriculares decedi adicionar atributos interessantes.",
+    "correcao": "Foram adicionados os campos codigo (CharField) e objetivos (TextField) ao modelo UnidadeCurricular.",
+    "justificacao": "O código permite identificar unicamente cada unidade curricular, enquanto os objetivos ajudam a compreender melhor o seu propósito e conteúdos.",
+    "uso_ia": "Foi utilizada inteligência artificial para auxiliar na definição dos atributos mais relevantes a incluir na entidade."
+  }
+},
+{
+  "model": "portfolio.makingof",
+  "pk": 6,
+  "fields": {
+    "titulo": "Adição do atributo email à entidade Docente",
+    "descricao": "Durante a modelação da entidade Docente, surgiu a necessidade de incluir informação adicional de contacto.",
+    "data": "2026-04-08",
+    "imagem": "",
+    "decisao": "Foi adicionado o atributo email à entidade Docente.",
+    "erro": "Inicialmente, a entidade não incluía qualquer forma de contacto direto.",
+    "correcao": "Foi criado o campo email como EmailField, permitindo armazenar contactos quando disponíveis.",
+    "justificacao": "Apesar de nem todos os docentes disponibilizarem email, este atributo permite enriquecer a informação sempre que possível.",
+    "uso_ia": "Foi utilizada inteligência artificial para apoiar a decisão sobre a inclusão de dados opcionais."
+  }
+},
+{
+  "model": "escola.professor",
+  "pk": 1,
+  "fields": {
+    "nome": "Jiayi Ye",
+    "email": "jiayi@gmail.com"
+  }
+},
+{
+  "model": "escola.aluno",
+  "pk": 1,
+  "fields": {
+    "nome": "Marta",
+    "numero": "a22403096"
+  }
+},
+{
+  "model": "escola.curso",
+  "pk": 1,
+  "fields": {
+    "nome": "Informática de Gestão",
+    "imagem": "cursos/InformaticaGestao.jpeg",
+    "professor": 1,
+    "alunos": [
+      1
+    ]
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$TS4hihPQctM1MOglAWFPKW$5ht9yQXMihuTV4+kmRtMGHWtJisdk33AHUM0RJVH71s=",
+    "last_login": "2026-05-07T16:05:02.555Z",
+    "is_superuser": true,
+    "username": "admin",
+    "first_name": "",
+    "last_name": "",
+    "email": "admin@gmail.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2026-04-01T12:07:38Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 2,
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$56qEQskitZnW6eD8LSoHbF$ro95xPYM9vQeaAreVKb4pMdVsr3nQcNM1xvtdeLfoGo=",
+    "last_login": "2026-05-06T20:16:11.374Z",
+    "is_superuser": false,
+    "username": "gestor-portfolio",
+    "first_name": "",
+    "last_name": "",
+    "email": "gestorportfolio@gmail.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2026-05-05T20:27:25Z",
+    "groups": [
+      1
+    ],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 4,
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$AWQbxJQadZQYxAuvQCl4oD$Y8vncXAMxuX5lSW4gpkDrNjcdXopJ2YEpr27Frl/iBM=",
+    "last_login": "2026-05-07T16:14:22.249Z",
+    "is_superuser": false,
+    "username": "autores",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-05-07T16:13:40Z",
+    "groups": [
+      2
+    ],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.group",
+  "pk": 1,
+  "fields": {
+    "name": "gestor-portfolio",
+    "permissions": [
+      29,
+      30,
+      31,
+      32,
+      41,
+      42,
+      43,
+      44,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56
+    ]
+  }
+},
+{
+  "model": "auth.group",
+  "pk": 2,
+  "fields": {
+    "name": "autores",
+    "permissions": [
+      81,
+      82,
+      83,
+      84,
+      77,
+      78,
+      79,
+      80
+    ]
+  }
+}
+]
